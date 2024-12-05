@@ -28,8 +28,8 @@ const NoMoreShitCoin = () => {
       <div
         className="w-full h-[85vh] flex flex-col justify-evenly drop-shadow-md bg-center bg-no-repeat bg-cover"
         style={{
-          background: "url(/image1.png)",
-          backgroundSize: "cover",
+          background: "url(/ad.jpeg)",
+          backgroundSize: "contain",
           backgroundRepeat: "no-repeat",
           backgroundOrigin: "center",
         }}
