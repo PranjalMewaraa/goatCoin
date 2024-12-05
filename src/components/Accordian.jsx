@@ -39,7 +39,7 @@ const Accordion = () => {
   ];
 
   return (
-    <div className="max-w-[1190px] w-3/5 mt-10 -rotate-2">
+    <div className="max-w-[1190px] md:w-3/5 mt-10 -rotate-2">
       {questionsAndAnswers.map((item, index) => (
         <div
           key={index}
