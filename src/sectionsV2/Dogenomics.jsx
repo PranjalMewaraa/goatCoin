@@ -11,7 +11,7 @@ const Dogenomics = () => {
         style={{ backgroundImage: "url(/image7.png)" }}
       >
         <img
-          src="/img/token.png"
+          src="/Tokenomics.png"
           className=" lg:max-h-[550px] 2xl:max-h-[800px] md:h-auto"
           alt=""
         />
