@@ -1,7 +1,5 @@
 import React from "react";
-import SvgBackgroundCard from "../components/SvgCardBlue";
-import SvgBackgroundCard2 from "../components/SvgCardBlack";
-import Dropdown from "../components/dropdown";
+
 import Convertor from "../components/Convertor";
 import { Swiper, SwiperSlide } from "swiper/react";
 
