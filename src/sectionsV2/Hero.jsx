@@ -9,7 +9,7 @@ const Hero = () => {
   return (
     <>
       <div
-        className="w-full bg-no-repeat bg-cover flex flex-col items-center"
+        className="w-full h-fit bg-no-repeat bg-cover flex flex-col items-center"
         style={{ backgroundImage: "url(/img/hero/bg-hero.png)" }}
       >
         <div className="max-w-[1560px] w-full flex flex-col gap-4 h-[100vh] overflow-hidden md:pt-20 md:px-16 bg-no-repeat relative bg-cover">

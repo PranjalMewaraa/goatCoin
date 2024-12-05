@@ -68,7 +68,7 @@ const Convertor = () => {
           </p>
         </div>
       </div>
-      <div className="px-4 flex flex-col gap-2">
+      <div className="px-4 flex flex-col ">
         <DropdownItem
           label={"Select Payment Method"}
           itm={data}
