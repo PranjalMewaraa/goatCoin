@@ -3,7 +3,7 @@ import React from "react";
 const Roadmap = () => {
   return (
     <div
-      className="w-full h-full pb-8 min-h-screen mt-2 bg-cover bg-no-repeat"
+      className="w-full h-fit pb-8 min-h-screen mt-2 bg-cover bg-no-repeat"
       style={{
         background: "url(/image5.png)",
         backgroundSize: "cover",
@@ -21,7 +21,7 @@ const Roadmap = () => {
         Roadmap
       </h1>
 
-      <div className="flex md:flex-row flex-col md:gap-4 p-8">
+      <div className="flex md:flex-row flex-col h-fit md:gap-4 p-8">
         <div className="flex flex-col gap-2 p-4 border-8 border-black w-full md:w-1/4 bg-white">
           <p className="text-[#00BABD] text-shadow-[2px_2px_0px_#000] font-inter text-4xl italic font-extrabold uppercase leading-normal">
             DECEMBER <br /> 2024
