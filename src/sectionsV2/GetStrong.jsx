@@ -10,7 +10,11 @@ const GetStrong = () => {
         backgroundRepeat: "no-repeat",
       }}
     >
-      <img src="/gtb.png" alt="" className="bottom-0 h-full absolute" />
+      <img
+        src="/gtb.png"
+        alt=""
+        className="bottom-0 h-5/6 aspect-square md:h-full absolute"
+      />
     </div>
   );
 };
