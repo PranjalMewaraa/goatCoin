@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  user-select: none;
+  scrollbar-width: 0px;
+}
+*::-webkit-scrollbar {
+  display: none; /* Safari and Chrome */
+}
+@font-face {
+  font-family: nav;
+  src: url(/font/nav.otf);
+}
+#root,
+body {
+  background: #000;
+}
+@font-face {
+  font-family: boldx;
+  src: url(/font/bold.otf);
+}
+/* Define the marquee animation */
+@keyframes marquee {
+  0% {
+    transform: translateX(100%); /* Start from the right */
+  }
+  100% {
+    transform: translateX(-100%); /* Move to the left */
+  }
+}
+
+.animate-marquee {
+  display: flex; /* Ensure the items are on the same row */
+  animation: marquee 10s linear infinite;
+}
+
+/* Optionally, add styles to prevent the text from breaking or wrapping */
+.whitespace-nowrap {
+  white-space: nowrap;
+}
