@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Footer2 = () => {
   const scrollToTop = () => {
@@ -33,8 +34,8 @@ const Footer2 = () => {
           prior notice.
         </p>
         <p className="text-xl flex gap-6 font-extrabold">
-          <span>Privacy Policy</span>
-          <span>Terms and Regulation</span>
+          <Link to={"/privacy-policy"}>Privacy Policy</Link>
+          <Link to={"/terms-and-conditions"}>Terms and Regulation</Link>
         </p>
       </div>
       <div className="flex flex-col gap-4">

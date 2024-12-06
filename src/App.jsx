@@ -1,6 +1,4 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "./App.css";
 import Layout from "./Layout";
 import Hero from "./sectionsV2/Hero";
@@ -17,29 +15,58 @@ import Footer from "./sectionsV2/Footer";
 import Footer2 from "./sections/Footer2";
 import Dogenomics from "./sectionsV2/Dogenomics";
 import BlackSection from "./sectionsV2/BlackSection";
+import PrivacyPolicy from "./Privacy";
+import TermsAndConditions from "./TermsCondition";
+import ScrollToTop from "./ScrollToTop";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
-    <>
-      <Layout>
-        <Hero />
-        <Brands />
-        <FutureListing />
-        <GetStrong />
-        <NoMoreShitCoin />
-        <Presale />
-        <FutureListing2 />
-        <Dogenomics />
-        <BlackSection />
-        <Roadmap />
-        <EarnMore />
-        <Faq />
-        <Footer />
-        <Footer2 />
-      </Layout>
-    </>
+    <Router>
+      <ScrollToTop />
+      <Routes>
+        {/* Main Page Route */}
+        <Route
+          path="/"
+          element={
+            <Layout>
+              <Hero />
+              <Brands />
+              <FutureListing />
+              <GetStrong />
+              <NoMoreShitCoin />
+              <Presale />
+              <FutureListing2 />
+              <Dogenomics />
+              <BlackSection />
+              <Roadmap />
+              <EarnMore />
+              <Faq />
+              <Footer />
+              <Footer2 />
+            </Layout>
+          }
+        />
+        {/* Privacy Policy Page Route */}
+        <Route
+          path="/privacy-policy"
+          element={
+            <Layout>
+              <PrivacyPolicy />
+              <Footer2 />
+            </Layout>
+          }
+        />
+        <Route
+          path="/terms-and-conditions"
+          element={
+            <Layout>
+              <TermsAndConditions />
+              <Footer2 />
+            </Layout>
+          }
+        />
+      </Routes>
+    </Router>
   );
 }
 

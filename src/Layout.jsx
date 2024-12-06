@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState } from "react";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
@@ -10,14 +11,22 @@ const Navbar = () => {
         WebkitTextStrokeColor: "#000",
       }}
     >
-      <div className="h-full flex gap-1 items-center">
+      <Link to={"/"} className="h-full flex gap-1 items-center">
         <img
           src="/img/navbar/coin.png"
           className="h-full aspect-square"
           alt=""
         />
-        <h1 className="text-white font-bold text-2xl">GOATTAPPER</h1>
-      </div>
+        <h1
+          className="text-white font-bold text-2xl stroke-black"
+          style={{
+            WebkitTextStrokeWidth: "1.3px",
+            WebkitTextStrokeColor: "#000",
+          }}
+        >
+          GOATTAPPER
+        </h1>
+      </Link>
     </div>
   );
 };
