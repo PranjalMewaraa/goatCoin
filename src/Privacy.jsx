@@ -15,11 +15,12 @@ const PrivacyPolicy = () => {
           Introduction
         </h2>
         <p className="text-gray-600">
-          Welcome to OverHere. This Privacy Policy explains how we collect, use,
-          share, and protect your information when you use our website and
+          Welcome to GoatTapper. This Privacy Policy explains how we collect,
+          use, share, and protect your information when you use our website and
           services, including our Web3 features that support blockchain-based
-          transactions and token redemption. By using OverHere, you agree to the
-          collection and use of your information as described in this policy.
+          transactions and token redemption. By using GoatTapper, you agree to
+          the collection and use of your information as described in this
+          policy.
         </p>
       </section>
 
@@ -33,13 +34,13 @@ const PrivacyPolicy = () => {
         <ul className="list-disc list-inside text-gray-600 mb-2">
           <li>
             <strong>Account Information:</strong> When you create an account on
-            OverHere, we may collect your name, email address, wallet address,
+            GoatTapper, we may collect your name, email address, wallet address,
             social logins, and other information necessary to identify you.
           </li>
           <li>
             <strong>Transaction Information:</strong> Information about the
-            transactions you engage in on OverHere, including blockchain-related
-            transactions and token claim or transfer.
+            transactions you engage in on GoatTapper, including
+            blockchain-related transactions and token claim or transfer.
           </li>
           <li>
             <strong>Communication Data:</strong> If you contact us, we may
@@ -109,7 +110,7 @@ const PrivacyPolicy = () => {
           <li>
             <strong>For Legal Compliance and Protection:</strong> We may share
             your information if required by law or to protect the rights,
-            property, or safety of OverHere, our users, or others.
+            property, or safety of GoatTapper, our users, or others.
           </li>
           <li>
             <strong>Business Transfers:</strong> In the event of a merger,
@@ -119,7 +120,7 @@ const PrivacyPolicy = () => {
           </li>
         </ul>
         <p className="text-gray-600">
-          Note: OverHere does not sell or rent your personal data to third
+          Note: GoatTapper does not sell or rent your personal data to third
           parties for marketing purposes.
         </p>
       </section>

@@ -15,10 +15,10 @@ const TermsAndConditions = () => {
           Acceptance of Terms
         </h2>
         <p className="text-gray-600">
-          By accessing or using the OverHere protocol or engaging in any
+          By accessing or using the GoatTapper protocol or engaging in any
           transactions, including claiming tokens, you agree to comply with and
           be bound by these Terms and Conditions. If you do not agree with any
-          part of these terms, please do not use our services.
+          part of these terms, please do not use our services{" "}
         </p>
       </section>
 
@@ -27,11 +27,11 @@ const TermsAndConditions = () => {
           1. Grant of License
         </h2>
         <p className="text-gray-600 mb-2">
-          1.1 OverHere Limited ("OverHere") grants you ("User") a non-exclusive,
-          non-transferable, revocable license to access and use the services
-          available on the OverHere.gg website (the "Service") for your
-          personal, non-commercial use, subject to the terms and conditions
-          herein.
+          1.1 GoatTapper Limited ("GoatTapper") grants you ("User") a
+          non-exclusive, non-transferable, revocable license to access and use
+          the services available on the GoatTapper.gg website (the "Service")
+          for your personal, non-commercial use, subject to the terms and
+          conditions herein.
         </p>
         <p className="text-gray-600 mb-2">
           1.2 The Service is not intended for use by individuals under the age
@@ -42,7 +42,7 @@ const TermsAndConditions = () => {
         <p className="text-gray-600">
           1.3 You are responsible for ensuring that your use of the Service
           complies with all laws, regulations, and policies applicable to you.
-          OverHere makes no representations or warranties that the Service is
+          GoatTapper makes no representations or warranties that the Service is
           appropriate or available for use in your location.
         </p>
       </section>
@@ -52,9 +52,9 @@ const TermsAndConditions = () => {
           2. Intellectual Property Rights
         </h2>
         <p className="text-gray-600 mb-2">
-          2.1 All content on the OverHere.gg website, including but not limited
-          to text, graphics, logos, images, audio clips, and software
-          (collectively, the "Content"), is the property of OverHere or its
+          2.1 All content on the GoatTapper.gg website, including but not
+          limited to text, graphics, logos, images, audio clips, and software
+          (collectively, the "Content"), is the property of GoatTapper or its
           licensors and is protected by international copyright, trademark,
           patent, trade secret, and other intellectual property or proprietary
           rights laws.
@@ -62,7 +62,7 @@ const TermsAndConditions = () => {
         <p className="text-gray-600 mb-2">
           2.2 You are granted a limited, non-sublicensable license to access and
           use the Service and Content for personal, non-commercial purposes. Any
-          other use of the Service or Content without OverHere's prior written
+          other use of the Service or Content without GoatTapper's prior written
           consent is strictly prohibited.
         </p>
         <p className="text-gray-600">
@@ -84,7 +84,7 @@ const TermsAndConditions = () => {
           otherwise specified in writing.
         </p>
         <p className="text-gray-600">
-          3.2 OverHere makes no representations or warranties of any kind,
+          3.2 GoatTapper makes no representations or warranties of any kind,
           express or implied, as to the operation of the Service or the
           information, content, or materials included therein. You expressly
           agree that your use of the Service is at your sole risk.
@@ -101,7 +101,7 @@ const TermsAndConditions = () => {
           Service, please contact us at:
         </p>
         <p className="text-gray-600">
-          <strong>Email:</strong> contact@overhere.gg
+          <strong>Email:</strong> contact@GoatTapper.gg
         </p>
       </section>
     </div>
