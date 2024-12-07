@@ -193,7 +193,7 @@ const Roadmap = () => {
         <div className=" mb-2 left-1/3 transform  z-10">
           <button
             onClick={() => scroll("left")}
-            className="bg-yellow-500 text-white border-2 border-white p-2 rounded-full shadow-lg"
+            className="bg-white text-white border-4 border-black p-2 rounded-full shadow-lg"
           >
             <svg
               width="15"
@@ -205,7 +205,7 @@ const Roadmap = () => {
             >
               <path
                 d="M14.4138 10.6207L1.13793 22L-1.98962e-07 17.4483L10.2414 10.6207L-8.12429e-07 3.41379L2.27586 -9.94811e-08L14.4138 10.6207Z"
-                fill="white"
+                fill="black"
               ></path>
             </svg>
           </button>
@@ -213,7 +213,7 @@ const Roadmap = () => {
         <div className=" mb-2 right-1/3 transform  z-10">
           <button
             onClick={() => scroll("right")}
-            className="bg-yellow-500 text-white border-2 border-white p-2 rounded-full shadow-lg"
+            className="bg-white text-white border-4 border-black p-2 rounded-full shadow-lg"
           >
             <svg
               width="15"
@@ -225,7 +225,7 @@ const Roadmap = () => {
             >
               <path
                 d="M14.4138 10.6207L1.13793 22L-1.98962e-07 17.4483L10.2414 10.6207L-8.12429e-07 3.41379L2.27586 -9.94811e-08L14.4138 10.6207Z"
-                fill="white"
+                fill="black"
               ></path>
             </svg>
           </button>
