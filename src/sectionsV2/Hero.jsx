@@ -2,7 +2,7 @@ import React from "react";
 
 import Convertor from "../components/Convertor";
 import { Swiper, SwiperSlide } from "swiper/react";
-
+import { FaArrowRight } from "react-icons/fa6";
 // Import Swiper styles
 import "swiper/css";
 const Hero = () => {
@@ -276,29 +276,70 @@ const Hero = () => {
                 </defs>
               </svg>
             </div>
-            <div className="bg-white h-48 w-96 border-4 border-black p-4 text-2xl font-semibold">
-              Stop waiting for some wonders. Be a G.O.A.T with{" "}
-              <span className="font-bold">$GTPR</span>
-              <br />
-              <span className="flex gap-4 mt-4">
-                <span
-                  className="p-2 bg-black hover:bg-yellow-500 cursor-pointer h-12 w-12 aspect-square rounded-full"
-                  onClick={() => {
-                    window.location.href = "https://t.me/goattapper";
-                  }}
-                >
-                  <img src="/img/hero/telegram.png" alt="" />
+            <div className="bg-white h-fit w-96 border-4 border-black p-4 text-2xl font-semibold">
+              <span className="flex flex-col gap-4 ">
+                <span className="w-1/2 flex gap-6">
+                  {" "}
+                  <span
+                    className=" bg-black hover:bg-yellow-400 cursor-pointer h-12 w-12 aspect-square rounded-full"
+                    onClick={() => {
+                      window.location.href = "https://t.me/goattapper";
+                    }}
+                  >
+                    <img
+                      src="/telegram.png"
+                      className="bg-white hover:bg-yellow-400 rounded-full cursor-pointer"
+                      alt=""
+                    />
+                  </span>
+                  <span
+                    className=" bg-black hover:bg-yellow-400 h-12 cursor-pointer w-12 aspect-square rounded-full"
+                    onClick={() => {
+                      window.location.href = "https://x.com/TapperGoat";
+                    }}
+                  >
+                    <img
+                      src="/twitter.png"
+                      className="bg-white hover:bg-yellow-400 rounded-full cursor-pointer"
+                      alt=""
+                    />
+                  </span>
                 </span>
-                <span
-                  className="p-2 bg-black hover:bg-yellow-500 h-12 cursor-pointer w-12 aspect-square rounded-full"
-                  onClick={() => {
-                    window.location.href = "https://x.com/TapperGoat";
-                  }}
-                >
-                  <img src="/img/hero/twitter.png" alt="" />
+                <span className="w-1/2 flex gap-6">
+                  <span
+                    className=" bg-black hover:bg-yellow-400 h-12 cursor-pointer w-12 aspect-square rounded-full"
+                    onClick={() => {
+                      window.location.href =
+                        "https://www.youtube.com/@GoatTapper";
+                    }}
+                  >
+                    <img
+                      src="/youtube.png"
+                      className="bg-white hover:bg-yellow-400 rounded-full cursor-pointer"
+                      alt=""
+                    />
+                  </span>
+                  <span
+                    className=" bg-black hover:bg-yellow-400 h-12 cursor-pointer w-12 aspect-square rounded-full"
+                    onClick={() => {
+                      window.location.href = "https://discord.gg/tK8rvVzrWf";
+                    }}
+                  >
+                    <img
+                      className="rounded-full hover:bg-yellow-400 cursor-pointer bg-white"
+                      src="/discord.png"
+                      alt=""
+                    />
+                  </span>
                 </span>
               </span>
             </div>
+            <button className="bg-white flex items-center gap-4 text-black py-4 px-8 border-b-4 border-x-4 border-black rounded-br-3xl">
+              Whitepaper{" "}
+              <span>
+                <FaArrowRight />
+              </span>
+            </button>
           </div>
           <div
             id="middle_right_layer"
@@ -316,9 +357,9 @@ const Hero = () => {
               alt=""
             />
           </div>
-          <div className="absolute overflow-x-scroll bottom-4 md:bottom-24 z-10 hidden md:flex flex-wrap md:gap-2">
-            <img src="https://dogen.meme/spyWolf1.svg" alt="" />
-            <img src="https://dogen.meme/smartState1.svg" alt="" />
+          <div className="absolute overflow-x-scroll bottom-4 md:bottom-10 z-10 hidden md:flex flex-wrap md:gap-2">
+            <img src="/spywolf.png" alt="" />
+            <img src="/smartstake.png" alt="" />
           </div>
         </div>
       </div>

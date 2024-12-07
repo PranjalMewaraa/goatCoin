@@ -4,22 +4,22 @@ import MarqueeStrip from "../components/Marquee";
 
 const EarnMore = () => {
   const DATA_LIST = [
-    { text: "EARN WITH YOUR BROS " },
-    { text: "EARN WITH YOUR BROS " },
-    { text: "EARN WITH YOUR BROS " },
-    { text: "EARN WITH YOUR BROS " },
-    { text: "EARN WITH YOUR BROS " },
-    { text: "EARN WITH YOUR BROS " },
-    { text: "EARN WITH YOUR BROS " },
-    { text: "EARN WITH YOUR BROS " },
-    { text: "EARN WITH YOUR BROS " },
-    { text: "EARN WITH YOUR BROS " },
-    { text: "EARN WITH YOUR BROS " },
-    { text: "EARN WITH YOUR BROS " },
-    { text: "EARN WITH YOUR BROS " },
-    { text: "EARN WITH YOUR BROS " },
-    { text: "EARN WITH YOUR BROS " },
-    { text: "EARN WITH YOUR BROS " },
+    { text: "Tap to Earn " },
+    { text: "Tap to Earn " },
+    { text: "Tap to Earn " },
+    { text: "Tap to Earn " },
+    { text: "Tap to Earn " },
+    { text: "Tap to Earn " },
+    { text: "Tap to Earn " },
+    { text: "Tap to Earn " },
+    { text: "Tap to Earn " },
+    { text: "Tap to Earn " },
+    { text: "Tap to Earn " },
+    { text: "Tap to Earn " },
+    { text: "Tap to Earn " },
+    { text: "Tap to Earn " },
+    { text: "Tap to Earn " },
+    { text: "Tap to Earn " },
   ];
   return (
     <div className="w-full  h-fit flex flex-col pb-16 mt-1 md:rotate-2  translate-y-16 md:scale-105 md:-translate-y-10">
@@ -28,7 +28,7 @@ const EarnMore = () => {
       </div>
 
       <div
-        style={{ backgroundImage: "url(/image6.png)" }}
+        style={{ backgroundImage: "url(/ss.png)" }}
         className="w-full bg-right-bottom bg-no-repeat bg-contain bg-[#ffbf00] relative px-12 py-12 md:py-24 pb-16 md:pb-1 md:px-24 md:h-[100vh] hidden md:flex flex-col  "
       >
         <div className="md:-rotate-3 flex flex-col gap-8">
@@ -45,12 +45,12 @@ const EarnMore = () => {
             Earn More
           </div>
           <p className="text-black font-semibold text-xl">
-            Get income from your friends' purchases—and their friends' too, up{" "}
-            to three levels! <br /> Build your own GOAT army!
+            Play-to-Own is the Future. Build your RealEstate Portfolio by
+            tappingour way up
           </p>
           <div className="flex gap-4">
             <div className="p-4 max-w-96 text-white font-bold border-b-8 border-r-4 border-black rounded-md border-l border-t bg-[#019697]">
-              Connect Your Wallet to Copy Code
+              Play for Free on Telegram
             </div>
             <div className="p-4 max-w-48 font-bold border-b-8 border-r-4 border-black rounded-md border-l border-t bg-white text-black">
               Know More

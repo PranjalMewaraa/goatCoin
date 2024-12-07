@@ -6,35 +6,59 @@ const Accordion = () => {
   const toggleAccordion = (index) => {
     setOpenIndex(openIndex === index ? null : index); // Toggle open/close state
   };
-
   const questionsAndAnswers = [
     {
-      question: "What is Goat??",
+      question: "What is GoatTapper?",
       answer:
-        "Goat is a meme token on the Solana network. Goat is the one and only alpha dog and a devoted degen who never misses an opportunity to make gains. If you’re into stunning women, luxury watches, fine cigars, flashy cars, sunny beaches, and sparkling seas, then join the Goat Army!",
+        "GoatTapper is a gamified blockchain project that combines a tap-to-earn Telegram game with real-world financial opportunities. Players accumulate in-game points through gameplay, which can be used in tokenized real estate-backed asset auctions. Rewards include airdrops of GTPR tokens based on auction results.",
     },
     {
-      question: "How do I buy Goat??",
+      question: "What is GTPR, and how is it used?",
       answer:
-        "You can buy $Goat using multiple currencies and blockchains, all you need to do is connect your wallet to the presale widget!",
+        "GTPR is the utility token of the GoatTapper ecosystem with the following uses:\n" +
+        "• In-Game Purchases: Buy boosters and other in-game assets to enhance gameplay.\n" +
+        "• Auctions: Participate in House Drop auctions using in-game points, with rewards distributed in GTPR.\n" +
+        "• Airdrops: Receive GTPR tokens as rewards based on auction participation and results.",
     },
     {
-      question: "I bought $GTPR in the presale. How do I receive my tokens?",
+      question: "How does the House Drop auction work?",
       answer:
-        "You will be able to claim your tokens once the presale is over by connecting the wallet you used to purchase $GTPR. Full instructions and details will be announced before the end of the presale.",
+        "The House Drop auction is an event where players use their accumulated in-game points to bid on tokenized real estate-backed assets. After the auction:\n" +
+        "• Winners receive fractional ownership of the asset (as an NFT).\n" +
+        "• Participants are rewarded with GTPR tokens as airdrops proportional to their auction results.",
     },
     {
-      question: "Where can i find the whitepaper?",
-      answer: "Here is a link to the Whitepaper.!",
-    },
-    {
-      question: "How do i contact the Marketing team??",
+      question: "How can I earn GTPR tokens?",
       answer:
-        "To contact GTPR’s marketing team, please reach out at t.me/@goattapper or join our official Telegram group @goattapper. Our team will assist you with any inquiries, collaborations, or promotional activities.",
+        "You can earn GTPR tokens through the following:\n" +
+        "1. Purchase: Buy GTPR during the presale on the website or within the game.\n" +
+        "2. Auctions: Participate in House Drop auctions using in-game points and receive GTPR airdrops based on your performance.",
     },
     {
-      question: "How many stages does the presale have?",
-      answer: "The presale is divided into 13 stages.",
+      question: "When will GTPR be available on exchanges?",
+      answer:
+        "GTPR will be listed on decentralized (DEX) and centralized exchanges (CEX) after the first House Drop auction, scheduled for February 28, 2025. This ensures that the token gains utility and demand before entering the open market.",
+    },
+    {
+      question: "How does the token presale work?",
+      answer:
+        "The presale is conducted in five phases on the GoatTapper website, with prices increasing incrementally in each phase. Early participants benefit from lower prices and potential bonuses. The presale allows users to acquire GTPR tokens before they are publicly listed on exchanges.",
+    },
+    {
+      question: "What makes GoatTapper unique?",
+      answer:
+        "GoatTapper uniquely combines gamified earning with real-world asset ownership:\n" +
+        "• Players use in-game points to participate in auctions for tokenized real estate-backed assets.\n" +
+        "• GTPR tokens serve as rewards and enable users to enhance gameplay and participate in future events.\n" +
+        "• A robust ecosystem drives token demand and user engagement, ensuring long-term sustainability.",
+    },
+    {
+      question: "How do I get started with GoatTapper?",
+      answer:
+        "1. Join the Game: Start playing the Telegram-based tap-to-earn game to accumulate in-game points.\n" +
+        "2. Buy GTPR Tokens: Purchase GTPR during the presale or within the game to buy boosters or other assets.\n" +
+        "3. Participate in Auctions: Use your in-game points in the House Drop auction and earn GTPR rewards.\n" +
+        "Stay updated through our website and social media for the latest developments and events.",
     },
   ];
 
@@ -51,7 +75,9 @@ const Accordion = () => {
               index % 2 === 0 ? "bg-sky-200" : "bg-gray-200"
             } rounded-2xl cursor-pointer flex justify-between items-center`}
           >
-            <span className="text-3xl font-semibold">{item.question}</span>
+            <span className="text-xl font-semibold uppercase">
+              {item.question}
+            </span>
             <span className="text-white bg-yellow-500 rounded-full">
               <svg
                 className={`w-5 h-5 transition-transform duration-200 ${

@@ -35,8 +35,7 @@ const Footer = () => {
         >
           <div class="flex w-full md:w-1/3 font-semibold text-center md:text-justify  items-center flex-shrink-0 gap-[10px]">
             <p class="w-fit  md:px-[20px] text-[18px]">
-              Join our App Whitelist to be among the first alpha G.O.A.T
-              explorers
+              Join our GTPR Alpha Community
             </p>
             <svg
               width="37"
@@ -111,7 +110,7 @@ const Footer = () => {
               />
             </div>
             <button class="bg-black rounded-[78px] px-[35px] md:h-[69px] uppercase md:text-[18px] text-white hover:text-[#FFD319] transition-all md:w-full h-[54px] text-[15px]">
-              Join Whitelist
+              Join Community
             </button>
           </div>
         </div>

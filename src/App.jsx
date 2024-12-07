@@ -31,8 +31,8 @@ function App() {
             <Layout>
               <Hero />
               <Brands />
-              <FutureListing />
               <GetStrong />
+              <FutureListing />
               <NoMoreShitCoin />
               <Presale />
               <FutureListing2 />

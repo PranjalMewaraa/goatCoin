@@ -37,13 +37,12 @@ const BlackSection = () => {
     >
       <img src="/dollar.png" alt="" className="h-28 md:h-40" />
       <h1
-        className="font-[boldx] text-center text-7xl text-white stroke-black stroke-1"
+        className="font-[boldx] text-center text-5xl text-white stroke-black stroke-1"
         style={{
           WebkitTextStrokeWidth: "1.3px",
           WebkitTextStrokeColor: "#000",
         }}
       >
-        About <br />{" "}
         <span
           className="text-yellow-300"
           style={{
@@ -57,15 +56,11 @@ const BlackSection = () => {
         </span>
       </h1>
       <div className="flex gap-2 items-center justify-center">
-        <img src="https://dogen.meme/spyWolf1.svg" alt="" />{" "}
+        <img src="/spywolf1.png" alt="" />{" "}
         <div className="h-20 w-[1px] bg-gray-50"></div>
-        <img
-          src="https://dogen.meme/cyberscope.png"
-          className="max-h-36"
-          alt=""
-        />{" "}
+        <img src="/cyber.png" className="max-h-36" alt="" />{" "}
         <div className="h-20 w-[1px] bg-gray-50"></div>
-        <img src="https://dogen.meme/smartState1.svg" alt="" />
+        <img src="/smartstake.1.png" alt="" />
       </div>
 
       <p className="text-gray-400 text-center w-full md:w-2/3 text-sm">

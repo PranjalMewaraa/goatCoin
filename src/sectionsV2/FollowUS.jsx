@@ -51,32 +51,6 @@ const FutureListing2 = () => {
         <span
           className="flex gap-2 cursor-pointer items-center"
           onClick={() => {
-            window.location.href = "https://www.facebook.com/goattapper";
-          }}
-        >
-          <img
-            className=" text-black w-12 aspect-square rounded-xl bg-white"
-            src="/facebook.png"
-            alt=""
-          />
-          <p className="font-[nav] md:hidden text-3xl">FACEBOOK</p>
-        </span>
-        <span
-          className="flex gap-2 cursor-pointer items-center"
-          onClick={() => {
-            window.location.href = "https://www.instagram.com/goattapper/";
-          }}
-        >
-          <img
-            className=" text-black w-12 aspect-square rounded-xl bg-white"
-            src="/instagram.png"
-            alt=""
-          />
-          <p className="font-[nav] md:hidden text-3xl">INSTAGRAM</p>
-        </span>
-        <span
-          className="flex gap-2 cursor-pointer items-center"
-          onClick={() => {
             window.location.href = "https://www.youtube.com/@GoatTapper";
           }}
         >
@@ -87,23 +61,11 @@ const FutureListing2 = () => {
           />
           <p className="font-[nav] md:hidden text-3xl">YOUTUBE</p>
         </span>
+
         <span
           className="flex gap-2 cursor-pointer items-center"
           onClick={() => {
-            window.location.href = "https://www.tiktok.com/@thegoattapper";
-          }}
-        >
-          <img
-            className=" text-black w-12 aspect-square rounded-xl bg-white"
-            src="/tiktok.png"
-            alt=""
-          />
-          <p className="font-[nav] md:hidden text-3xl">TIKTOK</p>
-        </span>
-        <span
-          className="flex gap-2 cursor-pointer items-center"
-          onClick={() => {
-            window.location.href = "https://t.me/goattapper";
+            window.location.href = "https://discord.gg/tK8rvVzrWf";
           }}
         >
           <img

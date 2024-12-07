@@ -12,7 +12,6 @@ const Footer2 = () => {
   return (
     <div className="w-full pb-24 p-8 text-white  gap-6 flex   flex-col md:flex-row justify-evenly">
       <div className="flex flex-col w-full md:w-1/3 gap-4">
-        <p className="font-bold text-xl text-gray-400">Risk Warning</p>
         <p className="text-sm text-justify">
           Trading cryptocurrencies is highly speculative, carries a high level
           of risk, and may not be suitable for all investors. You may lose some

@@ -33,7 +33,7 @@ const FutureListing = () => {
 
   return (
     <div
-      className="w-full flex gap-24 justify-center items-center flex-col overflow-hidden pt-[180px] pb-[60px] md:pt-[80px] md:pb-[40px] relative"
+      className="w-full flex gap-24 justify-center items-center flex-col overflow-hidden pt-[180px] pb-[60px] md:pt-[80px] md:pb-[80px] relative"
       style={{
         backgroundImage: "url(/img/fl/flbg.png)",
         backgroundSize: "cover",

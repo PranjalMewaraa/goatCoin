@@ -13,7 +13,6 @@ const Footer2 = () => {
   return (
     <div className="w-full pb-24 p-8 text-white  gap-6 flex   flex-col md:flex-row justify-evenly">
       <div className="flex flex-col w-full md:w-1/3 gap-4">
-        <p className="font-bold text-xl text-gray-400">Risk Warning</p>
         <p className="text-sm text-justify">
           Trading cryptocurrencies is highly speculative, carries a high level
           of risk, and may not be suitable for all investors. You may lose some
@@ -60,34 +59,50 @@ const Footer2 = () => {
           <p
             className="flex gap-2 cursor-pointer text-2xl font-black items-center"
             onClick={() => {
-              window.location.href = "https://t.me/goattapper";
+              window.location.href = "https://x.com/TapperGoat";
             }}
           >
             <span className="p-2  bg-[#F7A600] rounded-full">
               {" "}
               <img
                 width={24}
-                src="https://cdn-icons-png.flaticon.com/128/4423/4423446.png"
+                src="https://cdn-icons-png.flaticon.com/128/5968/5968958.png"
                 alt=""
               />
             </span>
-            Telegram Chat
+            Twitter
           </p>
           <p
             className="flex gap-2 cursor-pointer text-2xl font-black items-center"
             onClick={() => {
-              window.location.href = "https://t.me/goattapper";
+              window.location.href = "https://discord.gg/tK8rvVzrWf";
             }}
           >
             <span className="p-2  bg-[#F7A600] rounded-full">
               {" "}
               <img
                 width={24}
-                src="https://cdn-icons-png.flaticon.com/128/4423/4423446.png"
+                src="https://cdn-icons-png.flaticon.com/128/4945/4945914.png"
                 alt=""
               />
             </span>
-            Telegram News
+            Discord
+          </p>
+          <p
+            className="flex gap-2 cursor-pointer text-2xl font-black items-center"
+            onClick={() => {
+              window.location.href = "https://www.youtube.com/@GoatTapper";
+            }}
+          >
+            <span className="p-2  bg-[#F7A600] rounded-full">
+              {" "}
+              <img
+                width={24}
+                src="https://cdn-icons-png.flaticon.com/128/152/152810.png"
+                alt=""
+              />
+            </span>
+            Youtube
           </p>
         </ul>
       </div>
