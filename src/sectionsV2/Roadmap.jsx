@@ -1,5 +1,5 @@
 import { div } from "framer-motion/client";
-import React from "react";
+import React, { useEffect, useRef, useState } from "react";
 
 const Roadmap = () => {
   const roadmap = [
@@ -96,6 +96,30 @@ const Roadmap = () => {
     },
   ];
 
+  const stage = [1, 2, 3, 4, 5, 6, 7];
+  const middleIndex = Math.floor(stage.length / 2); // Calculate the index of the middle stage
+
+  // Create a reference to the scroll container
+  const scrollContainerRef = useRef(null);
+
+  // Calculate the scroll position to center the content
+  useEffect(() => {
+    const scrollContainer = scrollContainerRef.current;
+    if (scrollContainer) {
+      // Set scroll position to the start (left)
+      scrollContainer.scrollLeft = 0;
+    }
+  }, []);
+
+  const scroll = (direction) => {
+    const scrollContainer = scrollContainerRef.current;
+    if (scrollContainer) {
+      // Adjust the scroll position based on the direction
+      const scrollAmount = direction === "left" ? -300 : 300; // Adjust the scroll amount as needed
+      scrollContainer.scrollLeft += scrollAmount;
+    }
+  };
+
   const phaseColors = {
     1: "text-cyan-400", // Phase 1 color
     2: "text-green-400", // Phase 2 color
@@ -143,7 +167,10 @@ const Roadmap = () => {
           );
         })}
       </div>
-      <div className="flex md:flex-row w-screen overflow-x-scroll flex-col h-fit md:gap-4 p-8">
+      <div
+        className="flex md:flex-row w-screen overflow-x-scroll scroll-smooth snap-x snap-mandatory flex-col h-fit md:gap-4 p-8"
+        ref={scrollContainerRef}
+      >
         {roadmap.map(({ month, year, arrayforpoints, currentPhaseNumber }) => {
           return (
             <div className="flex flex-col gap-2 p-4 border-8 border-black w-full md:min-w-[400px] bg-white">
@@ -160,6 +187,49 @@ const Roadmap = () => {
             </div>
           );
         })}
+      </div>
+
+      <div className="flex justify-center items-center p-4 gap-24">
+        <div className=" mb-2 left-1/3 transform  z-10">
+          <button
+            onClick={() => scroll("left")}
+            className="bg-yellow-500 text-white border-2 border-white p-2 rounded-full shadow-lg"
+          >
+            <svg
+              width="15"
+              height="22"
+              viewBox="0 0 15 22"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              class="rotate-[180deg]"
+            >
+              <path
+                d="M14.4138 10.6207L1.13793 22L-1.98962e-07 17.4483L10.2414 10.6207L-8.12429e-07 3.41379L2.27586 -9.94811e-08L14.4138 10.6207Z"
+                fill="white"
+              ></path>
+            </svg>
+          </button>
+        </div>
+        <div className=" mb-2 right-1/3 transform  z-10">
+          <button
+            onClick={() => scroll("right")}
+            className="bg-yellow-500 text-white border-2 border-white p-2 rounded-full shadow-lg"
+          >
+            <svg
+              width="15"
+              height="22"
+              viewBox="0 0 15 22"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              class="shadow-swiper"
+            >
+              <path
+                d="M14.4138 10.6207L1.13793 22L-1.98962e-07 17.4483L10.2414 10.6207L-8.12429e-07 3.41379L2.27586 -9.94811e-08L14.4138 10.6207Z"
+                fill="white"
+              ></path>
+            </svg>
+          </button>
+        </div>
       </div>
     </div>
   );

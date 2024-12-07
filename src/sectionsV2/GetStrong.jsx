@@ -26,7 +26,7 @@ const GetStrong = () => {
             WebkitTextStrokeColor: "#000",
           }}
         >
-          Why GTPR
+          Why GTPR ?
         </h1>
         <h6
           className="text-justify pr-10 text-xl md:text-3xl font-black"
@@ -41,7 +41,7 @@ const GetStrong = () => {
           initiative includes tokenized realestate assets in to the ecosystem,
           allowing user to participate in auction and own property backed NFTs.
           GTPR is utility token that powers the ecosystem, enabling players,
-          investors, and partners to engage meaningfully with the project
+          investors, and partners to engage meaningfully with the project.
         </h6>
       </div>
     </div>
