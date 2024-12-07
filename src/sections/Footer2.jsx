@@ -34,7 +34,7 @@ const Footer2 = () => {
         </p>
         <p className="text-xl flex gap-6 font-extrabold">
           <Link to={"/privacy-policy"}>Privacy Policy</Link>
-          <Link to={"/terms-and-conditions"}>Terms and Regulation</Link>
+          <Link to={"/terms-and-conditions"}>Terms and Regulations</Link>
         </p>
       </div>
       <div className="flex flex-col gap-4">
