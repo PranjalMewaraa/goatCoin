@@ -24,7 +24,7 @@ const Faq = () => {
           FAQ
         </h1>
         <Accordion />
-        <div className="mt-16"> </div>
+        <div className="mt-24 mb-40 md:mb-0"> </div>
       </div>
     </>
   );
