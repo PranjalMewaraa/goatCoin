@@ -3,7 +3,7 @@ import React from "react";
 const GetStrong = () => {
   return (
     <div
-      className="mt-2 relative min-h-screen h-fit md:h-screen flex md:flex-row items-center flex-col overflow-hidden bg-cover bg-no-repeat"
+      className="mt-2 relative mb-4 min-h-screen h-fit md:h-screen flex md:flex-row items-center flex-col overflow-hidden bg-cover bg-no-repeat"
       style={{
         backgroundImage: "url(/img/gs/bggs.png)",
         backgroundSize: "cover",
