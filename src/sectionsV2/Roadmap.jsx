@@ -143,7 +143,7 @@ const Roadmap = () => {
           );
         })}
       </div>
-      <div className="flex md:flex-row w-full overflow-x-scroll flex-col h-fit md:gap-4 p-8">
+      <div className="flex md:flex-row w-screen overflow-x-scroll flex-col h-fit md:gap-4 p-8">
         {roadmap.map(({ month, year, arrayforpoints, currentPhaseNumber }) => {
           return (
             <div className="flex flex-col gap-2 p-4 border-8 border-black w-full md:min-w-[400px] bg-white">
