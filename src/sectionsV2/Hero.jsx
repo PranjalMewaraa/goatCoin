@@ -334,7 +334,7 @@ const Hero = () => {
                 </span>
               </span>
             </div>
-            <button className="bg-white font-bold uppercase text-2xl flex items-center gap-4 text-black py-4 px-8 border-b-4 border-x-4 border-black rounded-br-3xl">
+            <button className="bg-white font-bold uppercase text-xl flex items-center gap-4 text-black py-4 px-8 border-b-4 border-x-4 border-black rounded-br-3xl">
               Whitepaper{" "}
               <span>
                 <FaArrowRight />
