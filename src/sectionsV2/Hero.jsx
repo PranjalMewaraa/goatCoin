@@ -276,6 +276,12 @@ const Hero = () => {
                 </defs>
               </svg>
             </div>
+            <button className="bg-white md:hidden font-bold uppercase text-xl flex items-center gap-4 text-black py-4 px-8 border-t-4 border-x-4 border-black rounded-tr-3xl">
+              Whitepaper{" "}
+              <span>
+                <FaArrowRight />
+              </span>
+            </button>
             <div className="bg-white h-fit w-96 border-4 border-black p-4 text-2xl font-semibold">
               <span className="flex flex-col gap-4 ">
                 <span className="w-1/2 flex gap-6">
@@ -334,7 +340,7 @@ const Hero = () => {
                 </span>
               </span>
             </div>
-            <button className="bg-white font-bold uppercase text-xl flex items-center gap-4 text-black py-4 px-8 border-b-4 border-x-4 border-black rounded-br-3xl">
+            <button className="bg-white hidden md:flex font-bold uppercase text-xl  items-center gap-4 text-black py-4 px-8 border-b-4 border-x-4 border-black rounded-br-3xl">
               Whitepaper{" "}
               <span>
                 <FaArrowRight />

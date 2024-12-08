@@ -29,7 +29,7 @@ const EarnMore = () => {
 
       <div
         style={{ backgroundImage: "url(/ss.png)" }}
-        className="w-full bg-right-bottom bg-no-repeat bg-contain bg-[#ffbf00] relative px-12 py-12 md:py-24 pb-16 md:pb-1 md:px-24 md:h-[100vh] hidden md:flex flex-col  "
+        className="w-full bg-right-bottom bg-no-repeat bg-contain bg-[#ffbf00] relative px-12 py-12 md:py-24 pb-16 md:pb-1 md:px-24 md:min-h-[100vh] h-full hidden md:flex flex-col  "
       >
         <div className="md:-rotate-3 flex flex-col gap-8">
           <div
@@ -45,15 +45,18 @@ const EarnMore = () => {
             Earn More
           </div>
           <p className="text-black font-semibold text-xl">
-            Play-to-Own is the Future. Build your RealEstate Portfolio by
-            tappingour way up
+            Play-to-Own is the Future. Build your Real Estate Portfolio by
+            tapping your way up
           </p>
           <div className="flex gap-4">
-            <div className="p-4 max-w-96 text-white font-bold border-b-8 border-r-4 border-black rounded-md border-l border-t bg-[#019697]">
+            <div
+              className="p-4 max-w-96 text-white font-bold border-b-8 border-r-4 border-black rounded-md border-l border-t bg-[#019697]"
+              onClick={() => (window.location.href = "https://t.me/goattapper")}
+            >
               Play for Free on Telegram
             </div>
             <div className="p-4 max-w-48 font-bold border-b-8 border-r-4 border-black rounded-md border-l border-t bg-white text-black">
-              Know More
+              Whitepaper
             </div>
           </div>
           <div className="flex gap-4 items-end">
@@ -298,8 +301,8 @@ const EarnMore = () => {
           </div>
         </div>
       </div>
-      <div className="w-full scale-105 bg-yellow-400 relative px-12 py-12 md:py-24 pb-16 md:pb-1 md:px-24 md:h-[100vh] flex md:hidden flex-col  bg-cover bg-no-repeat">
-        <div className="md:-rotate-3 flex flex-col gap-8">
+      <div className="w-full scale-105 bg-yellow-400 relative px-12 py-12 md:py-24 h-full  md:pb-1 md:px-24 md:min-h-[100vh] flex md:hidden flex-col  bg-cover bg-no-repeat">
+        <div className="md:-rotate-3 h-1/2 flex flex-col gap-8">
           <div
             className=" uppercase text-white  font-[boldx] text-6xl "
             style={{

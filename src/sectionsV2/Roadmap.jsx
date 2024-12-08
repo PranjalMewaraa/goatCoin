@@ -155,7 +155,7 @@ const Roadmap = () => {
       >
         Roadmap
       </h1>
-      <div className="flex w-full flex-col md:flex-row px-8 justify-between  gap-2">
+      {/* <div className="flex w-full flex-col md:flex-row px-8 justify-between  gap-2">
         {phases.map((item) => {
           return (
             <div className="flex h-fit items-center bg-white py-1 px-2 rounded font-black gap-2">
@@ -166,7 +166,7 @@ const Roadmap = () => {
             </div>
           );
         })}
-      </div>
+      </div> */}
       <div
         className="flex md:flex-row w-screen overflow-x-scroll scroll-smooth snap-x snap-mandatory flex-col h-fit md:gap-4 p-8"
         ref={scrollContainerRef}

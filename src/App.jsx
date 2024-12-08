@@ -40,6 +40,12 @@ function App() {
               <BlackSection />
               <Roadmap />
               <EarnMore />
+              <div className="bg-yellow-400 md:hidden p-4 h-[60vh] mb-16 items-start flex">
+                <div
+                  className="w-full h-full bg-no-repeat  bg-contain"
+                  style={{ backgroundImage: "url('/ss.png')" }}
+                ></div>
+              </div>
               <Faq />
               <Footer />
               <Footer2 />

@@ -53,7 +53,7 @@ const EarnMore = () => {
               Connect Your Wallet to Copy Code
             </div>
             <div className="p-4 max-w-48 font-bold border-b-8 border-r-4 border-black rounded-md border-l border-t bg-white text-black">
-              Know More
+              Whitepaper
             </div>
           </div>
           <div className="flex gap-4 items-end">

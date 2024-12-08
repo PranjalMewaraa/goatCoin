@@ -6,7 +6,7 @@ const Faq = () => {
   return (
     <>
       <div
-        className="w-full h-fit  scale-110 md:scale-110 rotate-2 flex flex-col items-center gap-4 py-16"
+        className="w-full h-fit  scale-110 md:scale-110 rotate-2 translate-x-5 flex flex-col items-center gap-4 py-16"
         style={{
           background: "url(/img/bgfaq.png)",
           backgroundSize: "cover",
