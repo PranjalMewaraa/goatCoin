@@ -302,7 +302,7 @@ const EarnMore = () => {
         </div>
       </div>
       <div className="w-full scale-105 bg-yellow-400 relative px-12 py-12 md:py-24 h-full  md:pb-1 md:px-24 md:min-h-[100vh] flex md:hidden flex-col  bg-cover bg-no-repeat">
-        <div className="md:-rotate-3 h-1/2 flex flex-col gap-8">
+        <div className="md:-rotate-3 flex flex-col gap-8">
           <div
             className=" uppercase text-white  font-[boldx] text-6xl "
             style={{
