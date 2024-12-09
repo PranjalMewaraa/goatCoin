@@ -34,7 +34,7 @@ const Footer = () => {
           className="md:h-[110px] mt-20 bg-[#FFD319] z-10 md:rounded-[15px_77px_77px_15px] flex p-[6px] md:pl-[32px] max-w-[950px] gap-4 justify-between md:gap-[40px] flex-col md:flex-row m-auto rounded-[15px] h-auto md:p-[15px] mx-[10px]"
         >
           <div class="flex w-full md:w-1/3 font-semibold text-center md:text-justify  items-center flex-shrink-0 gap-[10px]">
-            <p class="w-fit  md:px-[20px] text-[18px]">
+            <p class="w-fit text-left md:px-[20px] text-[18px]">
               Join our GTPR Alpha Community
             </p>
             <svg

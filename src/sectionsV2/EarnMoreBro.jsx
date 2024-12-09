@@ -21,6 +21,10 @@ const EarnMore = () => {
     { text: "Tap to Earn " },
     { text: "Tap to Earn " },
   ];
+  const handleViewPdf = () => {
+    // Open PDF in a new tab
+    window.open("/whitepaper.pdf", "_blank");
+  };
   return (
     <div className="w-full  h-fit flex flex-col pb-16 mt-1 md:rotate-2  translate-y-16 md:scale-105 md:-translate-y-10">
       <div className="overflow-hidden relative bg-black w-full h-20 hidden md:flex items-center">
@@ -50,12 +54,15 @@ const EarnMore = () => {
           </p>
           <div className="flex gap-4">
             <div
-              className="p-4 max-w-96 text-white font-bold border-b-8 border-r-4 border-black rounded-md border-l border-t bg-[#019697]"
+              className="p-4 cursor-pointer max-w-96 text-white font-bold border-b-8 border-r-4 border-black rounded-md border-l border-t bg-[#019697]"
               onClick={() => (window.location.href = "https://t.me/goattapper")}
             >
               Play for Free on Telegram
             </div>
-            <div className="p-4 max-w-48 font-bold border-b-8 border-r-4 border-black rounded-md border-l border-t bg-white text-black">
+            <div
+              onClick={handleViewPdf}
+              className="p-4 max-w-48 cursor-pointer font-bold border-b-8 border-r-4 border-black rounded-md border-l border-t bg-white text-black"
+            >
               Whitepaper
             </div>
           </div>
@@ -320,11 +327,17 @@ const EarnMore = () => {
             to three levels! <br /> Build your own DOGEN army!
           </p>
           <div className="flex gap-4">
-            <div className="p-4 max-w-96 text-white font-bold border-b-8 border-r-4 border-black rounded-md border-l border-t bg-[#019697]">
-              Connect Your Wallet to Copy Code
+            <div
+              onClick={() => (window.location.href = "https://t.me/goattapper")}
+              className="p-4 cursor-pointer max-w-96 text-white font-bold border-b-8 border-r-4 border-black rounded-md border-l border-t bg-[#019697]"
+            >
+              Play for free on Telegram
             </div>
-            <div className="p-4 max-w-48 font-bold border-b-8 border-r-4 border-black rounded-md border-l border-t bg-white text-black">
-              Know More
+            <div
+              onClick={handleViewPdf}
+              className="p-4 max-w-48 cursor-pointer font-bold border-b-8 border-r-4 border-black rounded-md border-l border-t bg-white text-black"
+            >
+              Whitepaper
             </div>
           </div>
           <div className="flex flex-col md:flex-row gap-4 overflow-x-scroll items-center pb-10">

@@ -6,6 +6,9 @@ import { FaArrowRight } from "react-icons/fa6";
 // Import Swiper styles
 import "swiper/css";
 const Hero = () => {
+  const handleViewPdf = () => {
+    window.open("/whitepaper.pdf", "_blank");
+  };
   return (
     <>
       <div
@@ -276,7 +279,10 @@ const Hero = () => {
                 </defs>
               </svg>
             </div>
-            <button className="bg-white md:hidden font-bold uppercase text-xl flex items-center gap-4 text-black py-4 px-8 border-t-4 border-x-4 border-black rounded-tr-3xl">
+            <button
+              onClick={handleViewPdf}
+              className="bg-white md:hidden font-bold uppercase text-xl flex items-center gap-4 text-black py-4 px-8 border-t-4 border-x-4 border-black rounded-tr-3xl"
+            >
               Whitepaper{" "}
               <span>
                 <FaArrowRight />
@@ -340,7 +346,10 @@ const Hero = () => {
                 </span>
               </span>
             </div>
-            <button className="bg-white hidden md:flex font-bold uppercase text-xl  items-center gap-4 text-black py-4 px-8 border-b-4 border-x-4 border-black rounded-br-3xl">
+            <button
+              onClick={handleViewPdf}
+              className="bg-white hidden md:flex font-bold uppercase text-xl  items-center gap-4 text-black py-4 px-8 border-b-4 border-x-4 border-black rounded-br-3xl"
+            >
               Whitepaper{" "}
               <span>
                 <FaArrowRight />
