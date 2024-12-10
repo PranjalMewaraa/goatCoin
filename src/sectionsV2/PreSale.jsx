@@ -21,22 +21,22 @@ const Presale = () => {
   ];
 
   const scrollContainerRef = useRef(null);
-  const [currentIndex, setCurrentIndex] = useState(2); // Default center index
+  const [currentIndex, setCurrentIndex] = useState(10); // Default center index
 
   useEffect(() => {
     const scrollContainer = scrollContainerRef.current;
 
     if (scrollContainer) {
-      const stageCard = scrollContainer.querySelector("div > div");
-      const stageCardWidth = stageCard?.offsetWidth || 0;
+      const stageCards = scrollContainer.querySelectorAll("div > div");
+      const stageCardWidth = stageCards[0]?.offsetWidth || 0;
 
-      // Center the desired stage card
+      // Calculate the scroll position to center the currentIndex card
       requestAnimationFrame(() => {
         const scrollPosition =
-          stageCardWidth / 2 -
+          currentIndex * stageCardWidth -
           scrollContainer.offsetWidth / 2 +
-          stageCardWidth * currentIndex;
-
+          stageCardWidth / 2;
+        console.log(-scrollPosition);
         scrollContainer.scrollLeft = Math.max(0, scrollPosition);
       });
     }
