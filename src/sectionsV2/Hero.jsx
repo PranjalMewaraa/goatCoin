@@ -374,6 +374,7 @@ const Hero = () => {
               src="/image2.webp"
               className="max-h-[600px] 2xl:max-h-[800px]"
               alt="2"
+              loading="lazy"
             />
           </div>
           <div className="absolute overflow-x-scroll bottom-4 md:bottom-10 z-10 hidden md:flex flex-wrap md:gap-2">
