@@ -67,7 +67,7 @@ const Layout = ({ children }) => {
           isVisible ? "translate-y-full" : "translate-y-0"
         }`}
       >
-        <p className="text-black w-1/2 font-bold text-base md:text-2xl">
+        <p className="text-black w-full lg:w-1/2 font-bold text-base md:text-2xl">
           Start Building your legacy with $GTPR today!
         </p>
         <button

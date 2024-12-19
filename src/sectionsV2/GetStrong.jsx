@@ -3,7 +3,7 @@ import React from "react";
 const GetStrong = () => {
   return (
     <div
-      className="mt-2 relative mb-4 min-h-screen h-fit md:h-screen flex md:flex-row items-center flex-col overflow-hidden bg-cover bg-no-repeat"
+      className="mt-2 relative mb-4 min-h-screen h-fit md:h-screen flex lg:flex-row items-center flex-col overflow-hidden bg-cover bg-no-repeat"
       style={{
         backgroundImage: "url(/bggs.webp)",
         backgroundSize: "cover",
@@ -17,7 +17,7 @@ const GetStrong = () => {
           alt="gtb"
         />
       </div>
-      <div className="w-full p-8 md:p-1 flex flex-col gap-4 md:w-1/2 right-0 absolute">
+      <div className="w-full p-8 lg:p-1 flex flex-col gap-4 lg:w-1/2 right-0 absolute">
         <h1
           className="font-[boldx] text-5xl md:text-7xl text-white"
           style={{
