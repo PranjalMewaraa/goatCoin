@@ -12,6 +12,7 @@ body {
 @font-face {
   font-family: nav;
   src: url(/font/nav.otf);
+  font-display: swap;
 }
 #root,
 body {
@@ -20,6 +21,7 @@ body {
 @font-face {
   font-family: boldx;
   src: url(/font/bold.otf);
+  font-display: swap;
 }
 /* Define the marquee animation */
 @keyframes marquee {
