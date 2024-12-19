@@ -126,6 +126,7 @@ const Presale = () => {
         <div className="flex gap-24 items-center p-4">
           <div className=" transform  z-10">
             <button
+              name="left"
               onClick={() => scroll("left")}
               className="bg-yellow-500 text-white p-2 rounded-full shadow-lg"
             >
@@ -146,6 +147,7 @@ const Presale = () => {
           </div>
           <div className="transform  z-10">
             <button
+              name="left"
               onClick={() => scroll("right")}
               className="bg-yellow-500 text-white p-2 rounded-full shadow-lg"
             >

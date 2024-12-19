@@ -139,6 +139,7 @@ const Convertor = () => {
           </div>
         </div>
         <button
+          name="click_to_convertor"
           className="px-4 bg-sky-600 py-3 rounded-full text-white "
           onClick={() => {
             console.log(data);

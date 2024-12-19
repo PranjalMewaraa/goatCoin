@@ -81,6 +81,7 @@ const BlackSection = () => {
       <div className="flex justify-center items-center p-4 gap-24">
         <div className=" mb-2 left-1/3 transform  z-10">
           <button
+            name="left"
             onClick={() => scroll("left")}
             className="bg-yellow-500 text-white border-2 border-white p-2 rounded-full shadow-lg"
           >
@@ -101,6 +102,7 @@ const BlackSection = () => {
         </div>
         <div className=" mb-2 right-1/3 transform  z-10">
           <button
+            name="right"
             onClick={() => scroll("right")}
             className="bg-yellow-500 text-white border-2 border-white p-2 rounded-full shadow-lg"
           >

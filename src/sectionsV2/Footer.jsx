@@ -109,7 +109,10 @@ const Footer = () => {
                 class="text-[20px] uppercase outline-none"
               />
             </div>
-            <button class="bg-black rounded-[78px] px-[35px] md:h-[69px] uppercase md:text-[18px] text-white hover:text-[#FFD319] transition-all md:w-full h-[54px] text-[15px]">
+            <button
+              name="join_community"
+              class="bg-black rounded-[78px] px-[35px] md:h-[69px] uppercase md:text-[18px] text-white hover:text-[#FFD319] transition-all md:w-full h-[54px] text-[15px]"
+            >
               Join Community
             </button>
           </div>

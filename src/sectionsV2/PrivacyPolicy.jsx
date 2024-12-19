@@ -66,6 +66,7 @@ const PrivacyPolicy = () => {
       {sections.map((section, index) => (
         <div key={index} className="mb-4 border-b border-gray-200">
           <button
+            name="change_section"
             onClick={() => toggleSection(index)}
             className="w-full text-left p-4 text-lg font-semibold text-gray-700 bg-gray-100 hover:bg-gray-200 rounded-t focus:outline-none"
           >

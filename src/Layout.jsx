@@ -70,7 +70,10 @@ const Layout = ({ children }) => {
         <p className="text-black w-1/2 font-bold text-base md:text-2xl">
           Start Building your legacy with $GTPR today!
         </p>
-        <button className=" md:my-2 rounded-full bg-blue-400 opacity-100 font-bold text-white text-2xl px-4 md:px-16 py-2 md:py-5">
+        <button
+          name="buygtpr"
+          className=" md:my-2 rounded-full bg-blue-400 opacity-100 font-bold text-white text-2xl px-4 md:px-16 py-2 md:py-5"
+        >
           {" "}
           Buy $GTPR
         </button>

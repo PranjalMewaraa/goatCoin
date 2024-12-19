@@ -280,6 +280,7 @@ const Hero = () => {
               </svg>
             </div>
             <button
+              name="herowhitepaper"
               onClick={handleViewPdf}
               className="bg-white md:hidden font-bold uppercase text-xl flex items-center gap-4 text-black py-4 px-8 border-t-4 border-x-4 border-black rounded-tr-3xl"
             >
@@ -348,6 +349,7 @@ const Hero = () => {
             </div>
             <button
               onClick={handleViewPdf}
+              name="whitepaper"
               className="bg-white hidden md:flex font-bold uppercase text-xl  items-center gap-4 text-black py-4 px-8 border-b-4 border-x-4 border-black rounded-br-3xl"
             >
               Whitepaper{" "}
