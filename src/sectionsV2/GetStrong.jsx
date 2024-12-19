@@ -28,7 +28,7 @@ const GetStrong = () => {
         >
           Why GTPR ?
         </h1>
-        <h6
+        <h2
           className="text-justify pr-10 text-xl md:text-3xl font-black"
           style={{
             WebkitTextStrokeWidth: ".75ßpx",
@@ -42,7 +42,7 @@ const GetStrong = () => {
           allowing user to participate in auction and own property backed NFTs.
           GTPR is utility token that powers the ecosystem, enabling players,
           investors, and partners to engage meaningfully with the project.
-        </h6>
+        </h2>
       </div>
     </div>
   );
