@@ -40,7 +40,7 @@ const Footer2 = () => {
       <div className="flex flex-col gap-4">
         <p className="font-extrabold text-gray-400 text-xl">Follow us on</p>
         <ul className="flex flex-col gap-4">
-          <p
+          <l1
             className="flex gap-2 cursor-pointer text-2xl font-black items-center"
             onClick={() => {
               window.location.href = "https://t.me/goattapper";
@@ -55,8 +55,8 @@ const Footer2 = () => {
               />
             </span>
             Telegram
-          </p>
-          <p
+          </l1>
+          <l1
             className="flex gap-2 cursor-pointer text-2xl font-black items-center"
             onClick={() => {
               window.location.href = "https://x.com/TapperGoat";
@@ -71,8 +71,8 @@ const Footer2 = () => {
               />
             </span>
             Twitter
-          </p>
-          <p
+          </l1>
+          <l1
             className="flex gap-2 cursor-pointer text-2xl font-black items-center"
             onClick={() => {
               window.location.href = "https://discord.gg/tK8rvVzrWf";
@@ -87,8 +87,8 @@ const Footer2 = () => {
               />
             </span>
             Discord
-          </p>
-          <p
+          </l1>
+          <l1
             className="flex gap-2 cursor-pointer text-2xl font-black items-center"
             onClick={() => {
               window.location.href = "https://www.youtube.com/@GoatTapper";
@@ -103,7 +103,7 @@ const Footer2 = () => {
               />
             </span>
             Youtube
-          </p>
+          </l1>
         </ul>
       </div>
       <div className="flex flex-col gap-4">

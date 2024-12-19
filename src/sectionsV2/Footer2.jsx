@@ -39,7 +39,7 @@ const Footer2 = () => {
       <div className="flex flex-col gap-4">
         <p className="font-extrabold text-gray-400 text-xl">Follow us on</p>
         <ul className="flex flex-col gap-4">
-          <p className="flex gap-2 text-2xl font-black items-center">
+          <l1 className="flex gap-2 text-2xl font-black items-center">
             <span className="p-2  bg-yellow-300 rounded-full">
               <img
                 width={24}
@@ -48,8 +48,8 @@ const Footer2 = () => {
               />
             </span>
             Telegram
-          </p>
-          <p className="flex gap-2 text-2xl font-black items-center">
+          </l1>
+          <l1 className="flex gap-2 text-2xl font-black items-center">
             <span className="p-2  bg-yellow-300 rounded-full">
               <img
                 width={24}
@@ -58,8 +58,8 @@ const Footer2 = () => {
               />
             </span>
             Telegram Chat
-          </p>
-          <p className="flex gap-2 text-2xl font-black items-center">
+          </l1>
+          <l1 className="flex gap-2 text-2xl font-black items-center">
             <span className="p-2  bg-yellow-300 rounded-full">
               <img
                 width={24}
@@ -68,7 +68,7 @@ const Footer2 = () => {
               />
             </span>
             Telegram News
-          </p>
+          </l1>
         </ul>
       </div>
       <div className="flex flex-col gap-4">
