@@ -32,7 +32,7 @@ const EarnMore = () => {
       </div>
 
       <div
-        style={{ backgroundImage: "url(/ss.png)" }}
+        style={{ backgroundImage: "url(/ss.webp)" }}
         className="w-full bg-right-bottom bg-no-repeat bg-contain bg-[#ffbf00] relative px-12 py-12 md:py-24 pb-16 md:pb-1 md:px-24 md:min-h-[100vh] h-full hidden md:flex flex-col  "
       >
         <div className="md:-rotate-3 flex flex-col gap-8">

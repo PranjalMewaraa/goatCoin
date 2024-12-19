@@ -116,7 +116,7 @@ const Footer = () => {
         </div>
         <img
           className="w-3/5 h-fit bg-cover  z-0 bg-no-repeat"
-          src="/image4.png"
+          src="/image4-min.webp"
         ></img>
       </div>
     </div>

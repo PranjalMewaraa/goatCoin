@@ -62,7 +62,7 @@ const BlackSection = () => {
       >
         {stage.map((item, index) => (
           <div key={item} className="flex-shrink-0 snap-center">
-            <img src={`/img/${index + 1}.png`} alt="" />
+            <img src={`/${index + 1}.webp`} alt="" />
           </div>
         ))}
       </div>

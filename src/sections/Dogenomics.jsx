@@ -4,7 +4,7 @@ const Dogenomics = () => {
   return (
     <div
       className="w-full min-h-screen border-t-8 border-black bg-[#BEFEFF]"
-      style={{ backgroundImage: "url(/img/before.png)" }}
+      style={{ backgroundImage: "url(/before.webp)" }}
     >
       <div
         className="w-full h-screen flex justify-start items-center py-16 px-4 md:px-16 bg-right-bottom bg-no-repeat bg-contain"

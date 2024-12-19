@@ -12,8 +12,8 @@ const Hero = () => {
   return (
     <>
       <div
-        className="w-full h-fit bg-no-repeat bg-cover flex flex-col items-center"
-        style={{ backgroundImage: "url(/img/hero/bg-hero.png)" }}
+        className="w-full h-fit  bg-no-repeat bg-cover flex flex-col items-center"
+        style={{ backgroundImage: "url(/bg-hero.webp)" }}
       >
         <div className="max-w-[1560px] w-full flex flex-col gap-4 h-[100vh] overflow-hidden md:pt-20 md:px-16 bg-no-repeat relative bg-cover">
           <div id="bottom_layer" className="md:absolute">
@@ -367,7 +367,7 @@ const Hero = () => {
             className="absolute left-8 md:left-56 bottom-0 md:bottom z-10"
           >
             <img
-              src="/image2.png"
+              src="/image2.webp"
               className="max-h-[600px] 2xl:max-h-[800px]"
               alt=""
             />

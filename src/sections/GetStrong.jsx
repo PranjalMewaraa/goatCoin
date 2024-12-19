@@ -5,7 +5,7 @@ const GetStrong = () => {
     <div
       className="mt-2 relative h-screen overflow-hidden bg-cover bg-no-repeat"
       style={{
-        backgroundImage: "url(/img/gs/bggs.png",
+        backgroundImage: "url(/bggs.webp",
         backgroundSize: "cover",
         backgroundRepeat: "no-repeat",
       }}

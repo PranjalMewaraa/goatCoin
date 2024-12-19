@@ -33,7 +33,7 @@ const BlackSection = () => {
   return (
     <div
       className="w-full h-fit md:min-h-screen bg-right-bottom relative bng-black  flex flex-col items-center gap-4 p-8 bg-no-repeat bg-contain"
-      style={{ backgroundImage: "url(/img/black1.png)" }}
+      style={{ backgroundImage: "url(/black1.webp)" }}
     >
       <img src="/dollar.png" alt="" className="h-28 md:h-40" />
       <h1
@@ -58,7 +58,7 @@ const BlackSection = () => {
       <div className="flex gap-2 items-center justify-center">
         <img src="/spywolf1.png" alt="" />{" "}
         <div className="h-20 w-[1px] bg-gray-50"></div>
-        <img src="/cyber.png" className="max-h-36" alt="" />{" "}
+        <img src="/cyber-min.webp" className="max-h-36" alt="" />{" "}
         <div className="h-20 w-[1px] bg-gray-50"></div>
         <img src="/smartstake.1.png" alt="" />
       </div>

@@ -5,14 +5,14 @@ const GetStrong = () => {
     <div
       className="mt-2 relative mb-4 min-h-screen h-fit md:h-screen flex md:flex-row items-center flex-col overflow-hidden bg-cover bg-no-repeat"
       style={{
-        backgroundImage: "url(/img/gs/bggs.png)",
+        backgroundImage: "url(/bggs.webp)",
         backgroundSize: "cover",
         backgroundRepeat: "no-repeat",
       }}
     >
       <div>
         <img
-          src="/gtb.png"
+          src="/gtb-min.webp"
           className="bottom-0 absolute w-2/3 md:w-1/3"
           alt=""
         />

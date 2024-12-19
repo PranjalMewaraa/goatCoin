@@ -1,7 +1,7 @@
 import React from "react";
 import SvgBackgroundCard from "../components/SvgCardBlue";
 import SvgBackgroundCard2 from "../components/SvgCardBlack";
-import Dropdown from "../components/dropdown";
+
 import Convertor from "../components/Convertor";
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -12,7 +12,7 @@ const Hero = () => {
     <>
       <div
         className="w-full bg-no-repeat bg-cover flex flex-col items-center"
-        style={{ backgroundImage: "url(/img/hero/bg-hero.png)" }}
+        style={{ backgroundImage: "url(/bg-hero.webp)" }}
       >
         <div className="max-w-[1560px] w-full flex flex-col gap-4 h-[100vh] overflow-hidden md:pt-20 md:px-16 bg-no-repeat relative bg-cover">
           <div id="bottom_layer" className="md:absolute">

@@ -61,7 +61,7 @@ const Presale = () => {
   return (
     <div
       className="w-full flex flex-col -rotate-2 scale-110 bg-right -translate-y-10"
-      style={{ backgroundImage: "url(/img/black.png)" }}
+      style={{ backgroundImage: "url(/black.webp)" }}
     >
       <div className="overflow-hidden relative  origin-top-right bg-[#00BABD] translate-y-2 w-full h-16 flex items-center">
         <MarqueeStripBlue DATA_LIST={DATA_LIST} />

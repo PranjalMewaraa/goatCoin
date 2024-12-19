@@ -140,7 +140,7 @@ const Roadmap = () => {
     <div
       className="w-full h-fit pb-16 min-h-screen mt-2 bg-cover bg-no-repeat"
       style={{
-        background: "url(/image5.png)",
+        background: "url(/image5-min.webp)",
         backgroundSize: "cover",
         backgroundRepeat: "no-repeat",
       }}
