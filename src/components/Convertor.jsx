@@ -77,12 +77,12 @@ const Convertor = () => {
           options={[
             {
               id: "1",
-              title: "Bitcon",
+              title: "Bitcon_choice",
               src: "https://imgs.search.brave.com/QlbJL9MSDfanEuM2QM7pAng9wJb51u7HghyYiBcONvc/rs:fit:40:40:1:0/g:ce/aHR0cHM6Ly9jb2lu/LWltYWdlcy5jb2lu/Z2Vja28uY29tL2Nv/aW5zL2ltYWdlcy8x/L2xhcmdlL2JpdGNv/aW4ucG5nPzE2OTY1/MDE0MDA",
             },
             {
               id: "2",
-              title: "Etherium",
+              title: "Etherium_choice",
               src: "https://imgs.search.brave.com/ASU5HkLJLDzTMaUKqP1JeYiql6OwV7KPAu7my7sO8Kc/rs:fit:40:40:1:0/g:ce/aHR0cHM6Ly9jb2lu/LWltYWdlcy5jb2lu/Z2Vja28uY29tL2Nv/aW5zL2ltYWdlcy8y/NzkvbGFyZ2UvZXRo/ZXJldW0ucG5nPzE2/OTY1MDE2Mjg",
             },
           ]}
@@ -95,12 +95,12 @@ const Convertor = () => {
           options={[
             {
               id: "1",
-              title: "USDT",
+              title: "USDT_selected",
               src: "https://imgs.search.brave.com/P4IVcNrVhKHGl6TKaauZhenfRflAukbdxE06ovzUZnc/rs:fit:40:40:1:0/g:ce/aHR0cHM6Ly9jb2lu/LWltYWdlcy5jb2lu/Z2Vja28uY29tL2Nv/aW5zL2ltYWdlcy8z/MjUvbGFyZ2UvVGV0/aGVyLnBuZz8xNjk2/NTAxNjYx",
             },
             {
               id: "2",
-              title: "Etherium",
+              title: "Etherium_selected",
               src: "https://imgs.search.brave.com/ASU5HkLJLDzTMaUKqP1JeYiql6OwV7KPAu7my7sO8Kc/rs:fit:40:40:1:0/g:ce/aHR0cHM6Ly9jb2lu/LWltYWdlcy5jb2lu/Z2Vja28uY29tL2Nv/aW5zL2ltYWdlcy8y/NzkvbGFyZ2UvZXRo/ZXJldW0ucG5nPzE2/OTY1MDE2Mjg",
             },
           ]}
