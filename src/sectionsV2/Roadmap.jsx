@@ -192,6 +192,7 @@ const Roadmap = () => {
       <div className="flex justify-center items-center p-4 gap-24">
         <div className=" mb-2 left-1/3 transform  z-10">
           <button
+            aria-label="leftscroll"
             name="left"
             onClick={() => scroll("left")}
             className="bg-white text-white border-4 border-black p-2 rounded-full shadow-lg"
@@ -213,6 +214,7 @@ const Roadmap = () => {
         </div>
         <div className=" mb-2 right-1/3 transform  z-10">
           <button
+            aria-label="rightscroll"
             name="right"
             onClick={() => scroll("right")}
             className="bg-white text-white border-4 border-black p-2 rounded-full shadow-lg"

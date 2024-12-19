@@ -139,6 +139,7 @@ const Convertor = () => {
           </div>
         </div>
         <button
+          aria-label="click-to-convert"
           name="click_to_convertor"
           className="px-4 bg-sky-600 py-3 rounded-full text-white "
           onClick={() => {

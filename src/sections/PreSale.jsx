@@ -125,6 +125,7 @@ const Presale = () => {
         <div className="flex gap-24 items-center p-4">
           <div className=" transform  z-10">
             <button
+              aria-label="leftscroll"
               name="left"
               onClick={() => scroll("left")}
               className="bg-yellow-500 text-white p-2 rounded-full shadow-lg"
@@ -146,6 +147,7 @@ const Presale = () => {
           </div>
           <div className="transform  z-10">
             <button
+              aria-label="rightscroll"
               name="right"
               onClick={() => scroll("right")}
               className="bg-yellow-500 text-white p-2 rounded-full shadow-lg"

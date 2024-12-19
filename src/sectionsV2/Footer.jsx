@@ -110,6 +110,7 @@ const Footer = () => {
               />
             </div>
             <button
+              aria-label="join"
               name="join_community"
               class="bg-black rounded-[78px] px-[35px] md:h-[69px] uppercase md:text-[18px] text-white hover:text-[#FFD319] transition-all md:w-full h-[54px] text-[15px]"
             >
