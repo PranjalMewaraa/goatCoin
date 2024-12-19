@@ -56,7 +56,7 @@ const FutureListing2 = () => {
         >
           <img
             className=" text-black w-12 aspect-square rounded-xl bg-white"
-            src="/youtube.png"
+            src="/youtube.webp"
             alt="yt"
           />
           <p className="font-[nav] md:hidden text-3xl">YOUTUBE</p>
@@ -70,7 +70,7 @@ const FutureListing2 = () => {
         >
           <img
             className=" text-black w-12 aspect-square rounded-xl bg-white"
-            src="/discord.png"
+            src="/discord-min.webp"
             alt="discord"
           />
           <p className="font-[nav] md:hidden text-3xl">DISCORD</p>

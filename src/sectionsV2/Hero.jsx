@@ -312,7 +312,7 @@ const Hero = () => {
                     }}
                   >
                     <img
-                      src="/twitter.png"
+                      src="/twitter.webp"
                       className="bg-white hover:bg-yellow-400 rounded-full cursor-pointer"
                       alt="xx"
                     />
@@ -327,7 +327,7 @@ const Hero = () => {
                     }}
                   >
                     <img
-                      src="/youtube.png"
+                      src="/youtube.webp"
                       className="bg-white hover:bg-yellow-400 rounded-full cursor-pointer"
                       alt="yt"
                     />
@@ -340,7 +340,7 @@ const Hero = () => {
                   >
                     <img
                       className="rounded-full hover:bg-yellow-400 cursor-pointer bg-white"
-                      src="/discord.png"
+                      src="/discord-min.webp"
                       alt="disc"
                     />
                   </span>
