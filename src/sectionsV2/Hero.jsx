@@ -301,7 +301,7 @@ const Hero = () => {
                     <img
                       src="/telegram.png"
                       className="bg-white hover:bg-yellow-400 rounded-full cursor-pointer"
-                      alt=""
+                      alt="tg"
                     />
                   </span>
                   <span
@@ -313,7 +313,7 @@ const Hero = () => {
                     <img
                       src="/twitter.png"
                       className="bg-white hover:bg-yellow-400 rounded-full cursor-pointer"
-                      alt=""
+                      alt="xx"
                     />
                   </span>
                 </span>
@@ -328,7 +328,7 @@ const Hero = () => {
                     <img
                       src="/youtube.png"
                       className="bg-white hover:bg-yellow-400 rounded-full cursor-pointer"
-                      alt=""
+                      alt="yt"
                     />
                   </span>
                   <span
@@ -340,7 +340,7 @@ const Hero = () => {
                     <img
                       className="rounded-full hover:bg-yellow-400 cursor-pointer bg-white"
                       src="/discord.png"
-                      alt=""
+                      alt="disc"
                     />
                   </span>
                 </span>
@@ -369,12 +369,12 @@ const Hero = () => {
             <img
               src="/image2.webp"
               className="max-h-[600px] 2xl:max-h-[800px]"
-              alt=""
+              alt="2"
             />
           </div>
           <div className="absolute overflow-x-scroll bottom-4 md:bottom-10 z-10 hidden md:flex flex-wrap md:gap-2">
-            <img src="/spywolf.png" alt="" />
-            <img src="/smartstake.png" alt="" />
+            <img src="/spywolf.png" alt="sw" />
+            <img src="/smartstake.png" alt="ss" />
           </div>
         </div>
       </div>

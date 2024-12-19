@@ -44,7 +44,7 @@ const Footer2 = () => {
               <img
                 width={24}
                 src="https://cdn-icons-png.flaticon.com/128/4423/4423446.png"
-                alt=""
+                alt="tg"
               />
             </span>
             Telegram
@@ -54,7 +54,7 @@ const Footer2 = () => {
               <img
                 width={24}
                 src="https://cdn-icons-png.flaticon.com/128/4423/4423446.png"
-                alt=""
+                alt="tgt"
               />
             </span>
             Telegram Chat
@@ -64,7 +64,7 @@ const Footer2 = () => {
               <img
                 width={24}
                 src="https://cdn-icons-png.flaticon.com/128/4423/4423446.png"
-                alt=""
+                alt="tggr"
               />
             </span>
             Telegram News
@@ -76,7 +76,7 @@ const Footer2 = () => {
           onClick={scrollToTop}
           className="py-4 px-6 flex flex-col text-black font-bold justify-center items-center bg-yellow-400 rounded-full w-fit"
         >
-          <img src="/Frame.svg" alt="" />
+          <img src="/Frame.svg" alt="rfd" />
           <p>To to Top</p>
         </div>
       </div>

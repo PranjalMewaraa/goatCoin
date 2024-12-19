@@ -13,7 +13,7 @@ const Dogenomics = () => {
         <img
           src="/img/a.png"
           className=" lg:max-h-[550px] 2xl:max-h-[800px] md:h-auto"
-          alt=""
+          alt="a"
         />
       </div>
     </div>

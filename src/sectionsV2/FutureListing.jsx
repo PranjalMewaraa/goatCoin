@@ -56,6 +56,7 @@ const FutureListing = () => {
       >
         <img
           src="/img/fl/slider2.svg"
+          alt="fr"
           style={{
             maxWidth: "max-content",
             // Adjusting value based on slider state

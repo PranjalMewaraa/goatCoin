@@ -35,7 +35,7 @@ const BlackSection = () => {
       className="w-full h-fit md:min-h-screen bg-right-bottom relative bng-black  flex flex-col items-center gap-4 p-8 bg-no-repeat bg-contain"
       style={{ backgroundImage: "url(/black1.webp)" }}
     >
-      <img src="/dollar.png" alt="" className="h-28 md:h-40" />
+      <img src="/dollar.png" alt="gtpr" className="h-28 md:h-40" />
       <h1
         className="font-[boldx] text-center text-5xl text-white stroke-black stroke-1"
         style={{
@@ -56,11 +56,11 @@ const BlackSection = () => {
         </span>
       </h1>
       <div className="flex gap-2 items-center justify-center">
-        <img src="/spywolf1.png" alt="" />{" "}
+        <img src="/spywolf1.png" alt="sw" />{" "}
         <div className="h-20 w-[1px] bg-gray-50"></div>
-        <img src="/cyber-min.webp" className="max-h-36" alt="" />{" "}
+        <img src="/cyber-min.webp" className="max-h-36" alt="cb" />{" "}
         <div className="h-20 w-[1px] bg-gray-50"></div>
-        <img src="/smartstake.1.png" alt="" />
+        <img src="/smartstake.1.png" alt="ss" />
       </div>
 
       <p className="text-gray-400 text-center w-full md:w-2/3 text-sm">
@@ -74,7 +74,7 @@ const BlackSection = () => {
       >
         {stage.map((item, index) => (
           <div key={item} className="flex-shrink-0 snap-center">
-            <img src={`/img/${index + 1}.png`} alt="" />
+            <img src={`/img/${index + 1}.png`} alt={`/img/${index + 1}.png`} />
           </div>
         ))}
       </div>

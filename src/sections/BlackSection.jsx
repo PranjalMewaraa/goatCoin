@@ -35,20 +35,20 @@ const BlackSection = () => {
       className="w-full h-fit md:min-h-screen bg-right-bottom relative bng-black  flex flex-col items-center gap-4 p-8 bg-no-repeat bg-contain"
       style={{ backgroundImage: "url(/img/black1.png)" }}
     >
-      <img src="/dollar.png" alt="" className="h-28 md:h-40" />
+      <img src="/dollar.png" alt="gtpr" className="h-28 md:h-40" />
       <h1 className="font-[boldx] text-center text-7xl text-white stroke-black stroke-1">
         About <br /> <span className="text-yellow-300">GOAT TOKEN</span>
       </h1>
       <div className="flex gap-2 items-center justify-center">
-        <img src="https://dogen.meme/spyWolf1.svg" alt="" />{" "}
+        <img src="https://dogen.meme/spyWolf1.svg" alt="spywolf" />{" "}
         <div className="h-20 w-[1px] bg-gray-50"></div>
         <img
           src="https://dogen.meme/cyberscope.png"
           className="max-h-36"
-          alt=""
+          alt="cyberscope"
         />{" "}
         <div className="h-20 w-[1px] bg-gray-50"></div>
-        <img src="https://dogen.meme/smartState1.svg" alt="" />
+        <img src="https://dogen.meme/smartState1.svg" alt="smartstate" />
       </div>
 
       <p className="text-gray-400 text-center w-full md:w-2/3 text-sm">
@@ -62,13 +62,14 @@ const BlackSection = () => {
       >
         {stage.map((item, index) => (
           <div key={item} className="flex-shrink-0 snap-center">
-            <img src={`/${index + 1}.webp`} alt="" />
+            <img src={`/${index + 1}.webp`} alt={`/${index + 1}.webp`} />
           </div>
         ))}
       </div>
       <div className="flex justify-center items-center p-4 gap-24">
         <div className=" mb-2 left-1/3 transform  z-10">
           <button
+            name="left"
             onClick={() => scroll("left")}
             className="bg-yellow-500 text-white border-2 border-white p-2 rounded-full shadow-lg"
           >
@@ -89,6 +90,7 @@ const BlackSection = () => {
         </div>
         <div className=" mb-2 right-1/3 transform  z-10">
           <button
+            name="right"
             onClick={() => scroll("right")}
             className="bg-yellow-500 text-white border-2 border-white p-2 rounded-full shadow-lg"
           >

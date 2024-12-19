@@ -30,7 +30,7 @@ const FutureListing2 = () => {
           <img
             className="p-2 w-12 aspect-square text-black rounded-xl bg-black"
             src="/img/hero/twitter.png"
-            alt=""
+            alt="x"
           />
 
           <p className="font-[nav] md:hidden text-3xl">TWITTER</p>
@@ -44,7 +44,7 @@ const FutureListing2 = () => {
           <img
             className="p-2 text-black w-12 aspect-square rounded-xl bg-black"
             src="/img/hero/telegram.png"
-            alt=""
+            alt="tg"
           />
           <p className="font-[nav] md:hidden text-3xl">TELEGRAM</p>
         </span>
@@ -57,7 +57,7 @@ const FutureListing2 = () => {
           <img
             className=" text-black w-12 aspect-square rounded-xl bg-white"
             src="/youtube.png"
-            alt=""
+            alt="yt"
           />
           <p className="font-[nav] md:hidden text-3xl">YOUTUBE</p>
         </span>
@@ -71,7 +71,7 @@ const FutureListing2 = () => {
           <img
             className=" text-black w-12 aspect-square rounded-xl bg-white"
             src="/discord.png"
-            alt=""
+            alt="discord"
           />
           <p className="font-[nav] md:hidden text-3xl">DISCORD</p>
         </span>

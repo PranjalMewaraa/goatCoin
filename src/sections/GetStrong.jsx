@@ -10,7 +10,7 @@ const GetStrong = () => {
         backgroundRepeat: "no-repeat",
       }}
     >
-      <img src="/img/hero/3.png" alt="" className="bottom-0 absolute" />
+      <img src="/img/hero/3.png" alt="3" className="bottom-0 absolute" />
     </div>
   );
 };

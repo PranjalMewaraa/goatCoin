@@ -112,6 +112,7 @@ const Footer = () => {
         <img
           className="w-full h-fit bg-cover  z-0 bg-no-repeat"
           src="/Pranjal/5.jpg"
+          alt="5"
         ></img>
       </div>
     </div>

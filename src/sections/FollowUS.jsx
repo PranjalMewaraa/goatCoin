@@ -25,7 +25,7 @@ const FutureListing2 = () => {
           <img
             className="p-2 w-12 aspect-square text-black rounded-lg bg-black"
             src="/img/hero/twitter.png"
-            alt=""
+            alt="x"
           />
           <p className="font-[nav] text-3xl">TWITTER</p>
         </span>
@@ -33,7 +33,7 @@ const FutureListing2 = () => {
           <img
             className="p-2 text-black w-12 aspect-square rounded-lg bg-black"
             src="/img/hero/telegram.png"
-            alt=""
+            alt="tg"
           />
           <p className="font-[nav] text-3xl">TELEGRAM</p>
         </span>

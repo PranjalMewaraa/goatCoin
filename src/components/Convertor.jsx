@@ -114,7 +114,7 @@ const Convertor = () => {
                   data.paymentChoice?.src ||
                   "https://imgs.search.brave.com/ASU5HkLJLDzTMaUKqP1JeYiql6OwV7KPAu7my7sO8Kc/rs:fit:40:40:1:0/g:ce/aHR0cHM6Ly9jb2lu/LWltYWdlcy5jb2lu/Z2Vja28uY29tL2Nv/aW5zL2ltYWdlcy8y/NzkvbGFyZ2UvZXRo/ZXJldW0ucG5nPzE2/OTY1MDE2Mjg"
                 }
-                alt=""
+                alt="payment-choice"
               />
               <p className="text-xl flex text-gray-500  font-semibold">
                 $
@@ -131,7 +131,7 @@ const Convertor = () => {
           <div className="w-1/2 flex h-16 flex-col gap-1">
             <p className="pl-4">You Recieve</p>
             <div className="rounded-full flex gap-1 items-center bg-gray-300 p-2 w-full">
-              <img src="/dollar.png" alt="" className="h-10" />
+              <img src="/dollar.png" alt="goatcoin" className="h-10" />
               <p className="text-xl text-gray-500 font-semibold">
                 $1.20 <span className="text-xs">(1.1)</span>
               </p>

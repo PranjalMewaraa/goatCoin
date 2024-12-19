@@ -51,7 +51,7 @@ const Footer2 = () => {
               <img
                 width={24}
                 src="https://cdn-icons-png.flaticon.com/128/4423/4423446.png"
-                alt=""
+                alt="ict"
               />
             </span>
             Telegram
@@ -67,7 +67,7 @@ const Footer2 = () => {
               <img
                 width={24}
                 src="https://cdn-icons-png.flaticon.com/128/5968/5968958.png"
-                alt=""
+                alt="x"
               />
             </span>
             Twitter
@@ -83,7 +83,7 @@ const Footer2 = () => {
               <img
                 width={24}
                 src="https://cdn-icons-png.flaticon.com/128/4945/4945914.png"
-                alt=""
+                alt="discord"
               />
             </span>
             Discord
@@ -99,7 +99,7 @@ const Footer2 = () => {
               <img
                 width={24}
                 src="https://cdn-icons-png.flaticon.com/128/152/152810.png"
-                alt=""
+                alt="yt"
               />
             </span>
             Youtube
@@ -111,7 +111,7 @@ const Footer2 = () => {
           onClick={scrollToTop}
           className="py-4 px-6 flex flex-col text-black font-bold justify-center items-center bg-[#F7A600] rounded-full w-fit"
         >
-          <img src="/Frame.svg" alt="" />
+          <img src="/Frame.svg" alt="fr" />
           <p>To to Top</p>
         </div>
       </div>

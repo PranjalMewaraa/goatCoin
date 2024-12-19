@@ -284,10 +284,10 @@ const Hero = () => {
               <br />
               <span className="flex gap-4 mt-4">
                 <span className="p-2 bg-black h-12 w-12 aspect-square rounded-full">
-                  <img src="/img/hero/telegram.png" alt="" />
+                  <img src="/img/hero/telegram.png" alt="tg" />
                 </span>
                 <span className="p-2 bg-black h-12 w-12 aspect-square rounded-full">
-                  <img src="/img/hero/twitter.png" alt="" />
+                  <img src="/img/hero/twitter.png" alt="tx" />
                 </span>
               </span>
             </div>
@@ -305,12 +305,12 @@ const Hero = () => {
             <img
               src="/img/hero/1.png"
               className="max-h-[600px] 2xl:max-h-[800px]"
-              alt=""
+              alt="1"
             />
           </div>
           <div className="absolute overflow-x-scroll bottom-4 md:bottom-24 z-10 hidden md:flex flex-wrap md:gap-2">
-            <img src="https://dogen.meme/spyWolf1.svg" alt="" />
-            <img src="https://dogen.meme/smartState1.svg" alt="" />
+            <img src="https://dogen.meme/spyWolf1.svg" alt="wsw" />
+            <img src="https://dogen.meme/smartState1.svg" alt="ss" />
           </div>
         </div>
       </div>

@@ -13,7 +13,7 @@ const Dogenomics = () => {
         <img
           src="/Tokenomics.webp"
           className=" lg:max-h-[550px] 2xl:max-h-[800px] md:h-auto"
-          alt=""
+          alt="tokenomicds"
         />
       </div>
     </div>

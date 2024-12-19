@@ -15,7 +15,7 @@ const Navbar = () => {
         <img
           src="/img/navbar/coin.png"
           className="h-full aspect-square"
-          alt=""
+          alt="coin"
         />
         <h1
           className="text-white font-bold text-2xl stroke-black"

@@ -60,6 +60,7 @@ const FutureListing = () => {
             maxWidth: "max-content",
             // Adjusting value based on slider state
           }}
+          alt="f"
           className="relative transition-all flex-shrink-0 snap-center ease-in"
         />
       </div>
