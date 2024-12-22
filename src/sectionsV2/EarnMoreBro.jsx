@@ -54,12 +54,14 @@ const EarnMore = () => {
           </p>
           <div className="flex gap-4">
             <div
+              id="play"
               className="p-4 cursor-pointer max-w-96 text-white font-bold border-b-8 border-r-4 border-black rounded-md border-l border-t bg-[#019697]"
               onClick={() => (window.location.href = "https://t.me/goattapper")}
             >
               Play for Free on Telegram
             </div>
             <div
+              id="whitepaper"
               onClick={handleViewPdf}
               className="p-4 max-w-48 cursor-pointer font-bold border-b-8 border-r-4 border-black rounded-md border-l border-t bg-white text-black"
             >
