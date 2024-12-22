@@ -397,6 +397,7 @@ const Convertor = () => {
 
         {step === 1 ? (
           <button
+            id="wallet"
             onClick={connectWallet}
             className="w-full bg-indigo-600 text-white py-4 rounded-xl font-medium hover:bg-indigo-700 transition-colors flex items-center justify-center gap-2"
           >
@@ -521,13 +522,17 @@ const Convertor = () => {
               </div>
             </div>
             {walletAddress && (
-              <button className="w-full bg-green-600 hover:bg-green-700 text-white py-4 rounded-xl font-medium transition-colors flex items-center justify-center gap-2">
+              <button
+                id="wallet"
+                className="w-full bg-green-600 hover:bg-green-700 text-white py-4 rounded-xl font-medium transition-colors flex items-center justify-center gap-2"
+              >
                 Connected: {walletAddress.slice(0, 6)}...
                 {walletAddress.slice(-4)}
               </button>
             )}
 
             <button
+              id="sendbtn"
               onClick={handleSend}
               disabled={
                 loading || !!inputError || !data.youPay || !selectedCurrency
