@@ -4,8 +4,8 @@ import React, { useEffect, useRef, useState } from "react";
 const Roadmap = () => {
   const roadmap = [
     {
-      month: "August",
-      year: 2024,
+      month: "January",
+      year: 2025,
       arrayforpoints: [
         "Conceptualized GoatTapper and its integration with gamified blockchain elements.",
         "Established partnerships with a real estate company for tokenized assets.",
@@ -14,8 +14,8 @@ const Roadmap = () => {
       currentPhaseNumber: 1,
     },
     {
-      month: "September",
-      year: 2024,
+      month: "February",
+      year: 2025,
       arrayforpoints: [
         "Began development of the Telegram-based game.",
         "Finalized the tokenomics, including presale phases and auction models.",
@@ -24,8 +24,8 @@ const Roadmap = () => {
       currentPhaseNumber: 1,
     },
     {
-      month: "October",
-      year: 2024,
+      month: "March",
+      year: 2025,
       arrayforpoints: [
         "Completed testing of game mechanics and GTPR token smart contracts.",
         "Launched social media channels and began engaging with the community.",
@@ -34,8 +34,8 @@ const Roadmap = () => {
       currentPhaseNumber: 2,
     },
     {
-      month: "November",
-      year: 2024,
+      month: "April",
+      year: 2025,
       arrayforpoints: [
         "Finalized the in-game points accumulation system.",
         "Created the presale structure (Phase-1 to Phase-5) with incremental pricing.",
@@ -43,8 +43,8 @@ const Roadmap = () => {
       currentPhaseNumber: 2,
     },
     {
-      month: "December",
-      year: 2024,
+      month: "May",
+      year: 2025,
       arrayforpoints: [
         "Official game launch: Users start playing and accumulating in-game points.",
         "GTPR tokens become available for purchase within the game for in-game assets (e.g., boosters).",
@@ -54,7 +54,7 @@ const Roadmap = () => {
       currentPhaseNumber: 3,
     },
     {
-      month: "January",
+      month: "June",
       year: 2025,
       arrayforpoints: [
         "Presale Phases 2-3: Incremental pricing introduces a sense of urgency for buyers.",
@@ -63,7 +63,7 @@ const Roadmap = () => {
       currentPhaseNumber: 3,
     },
     {
-      month: "February",
+      month: "July",
       year: 2025,
       arrayforpoints: [
         "Presale Phases 4-5: Final phases before token sale closes.",
@@ -74,7 +74,7 @@ const Roadmap = () => {
       currentPhaseNumber: 3,
     },
     {
-      month: "February 28",
+      month: "July 15",
       year: 2025,
       arrayforpoints: [
         "First House-Drop Auction:",
@@ -84,7 +84,7 @@ const Roadmap = () => {
       currentPhaseNumber: 4,
     },
     {
-      month: "March",
+      month: "August",
       year: 2025,
       arrayforpoints: [
         "Token Listing on Exchanges:",
