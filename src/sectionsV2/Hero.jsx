@@ -378,6 +378,8 @@ const Hero = () => {
                 src="/image2.jpg"
                 className="max-h-[600px] 2xl:max-h-[800px]"
                 alt="2"
+                width={800}
+                height={600}
               />
             </picture>
           </div>
