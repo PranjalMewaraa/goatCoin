@@ -35,7 +35,7 @@ const BlackSection = () => {
       className="w-full h-fit md:min-h-screen bg-right-bottom relative bng-black  flex flex-col items-center gap-4 p-8 bg-no-repeat bg-contain"
       style={{ backgroundImage: "url(/img/black1.png)" }}
     >
-      <img src="/dollar.png" alt="gtpr" className="h-28 md:h-40" />
+      <img src="/dollar.webp" alt="gtpr" className="h-28 md:h-40" />
       <h1 className="font-[boldx] text-center text-7xl text-white stroke-black stroke-1">
         About <br /> <span className="text-yellow-300">GOAT TOKEN</span>
       </h1>

@@ -106,7 +106,7 @@ const Marquee = ({ list, time, toRight, ...props }) => {
       >
         {showList.map((item, index) => (
           <MarqueeItem key={index}>
-            <ItemImage src={"/dollar.png"} alt="" />
+            <ItemImage src={"/dollar.webp"} alt="" />
             {item.text}
           </MarqueeItem>
         ))}
