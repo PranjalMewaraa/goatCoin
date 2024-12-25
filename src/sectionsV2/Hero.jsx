@@ -372,11 +372,15 @@ const Hero = () => {
             id="middle_left_layer"
             className="absolute left-8 md:left-56 bottom-0 md:bottom z-10"
           >
-            <img
-              src="/image2.webp"
-              className="max-h-[600px] 2xl:max-h-[800px]"
-              alt="2"
-            />
+            <picture>
+              <source srcSet="/image2.webp" type="image/webp" />
+              <img
+                src="/image2.jpg"
+                className="max-h-[600px] 2xl:max-h-[800px]"
+                alt="2"
+                loading="lazy"
+              />
+            </picture>
           </div>
           <div className="absolute overflow-x-scroll bottom-4 md:bottom-10 z-10 hidden md:flex flex-wrap md:gap-2">
             <img src="/spywolf.png" alt="sw" />
