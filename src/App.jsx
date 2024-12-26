@@ -3,7 +3,7 @@ import "./App.css";
 import Layout from "./Layout";
 import Hero from "./sectionsV2/Hero";
 import Brands from "./sections/Brands";
-import FutureListing from "./sections/FutureListing";
+import FutureListing from "./sectionsV2/FutureListing";
 import GetStrong from "./sectionsV2/GetStrong";
 import NoMoreShitCoin from "./sectionsV2/NoMoreShitCoin";
 import Presale from "./sectionsV2/PreSale";
