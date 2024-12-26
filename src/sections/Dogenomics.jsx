@@ -7,7 +7,7 @@ const Dogenomics = () => {
       style={{ backgroundImage: "url(/before.webp)" }}
     >
       <div
-        className="w-full h-screen flex justify-start items-center py-16 px-4 md:px-16 bg-right-bottom bg-no-repeat bg-contain"
+        className="w-full h-fit md:h-screen flex justify-start items-center py-16 px-4 md:px-16 bg-right-bottom bg-no-repeat bg-contain"
         style={{ backgroundImage: "url(/img/Withou.png)" }}
       >
         <img
