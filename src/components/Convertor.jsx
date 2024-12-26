@@ -164,7 +164,7 @@ const ProgressHeader = () => (
         </span>
         / $7330
       </div>
-      $2,022,020 of $5,555,555
+      $ 230,265.62 / $ 1,333,333.32
       <div className="h-[1px] bg-black"></div>
       <div className="flex w-full justify-between my-1 items-center">
         <div className="text-sm font-semibold flex items-center gap-1">
