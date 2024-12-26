@@ -18,7 +18,7 @@ const FutureListing2 = () => {
           WebkitTextStrokeColor: "#000",
         }}
       >
-        Follow Us here
+        Follow Us Here
       </h1>
       <div className="flex flex-col md:flex-row gap-8">
         <span
