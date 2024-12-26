@@ -62,7 +62,7 @@ const StageCard = ({ stage, price, perc }) => {
           </p>
           <div className="w-full rounded-3xl bg-black h-4 flex items-center">
             <div className="p-1 ml-2 text-yellow-500 border border-white bg-black rounded-md text-xs">
-              GOAT
+              GTPR
             </div>
           </div>
         </div>
