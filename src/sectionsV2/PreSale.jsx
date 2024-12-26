@@ -10,10 +10,10 @@ const Presale = () => {
     { stage: 3, price: 0.04, percentage: 11.11 },
     { stage: 4, price: 0.05, percentage: 11.11 },
     { stage: 5, price: 0.06, percentage: 11.11 },
-    { stage: 6, price: 0.08, percentage: 11.11 },
-    { stage: 7, price: 0.09, percentage: 11.11 },
-    { stage: 8, price: 0.11, percentage: 11.11 },
-    { stage: 9, price: 0.13, percentage: 11.11 },
+    { stage: 6, price: 0.07, percentage: 11.11 },
+    { stage: 7, price: 0.08, percentage: 11.11 },
+    { stage: 8, price: 0.09, percentage: 11.11 },
+    { stage: 9, price: 0.1, percentage: 11.11 },
   ];
 
   const scrollContainerRef = useRef(null);
