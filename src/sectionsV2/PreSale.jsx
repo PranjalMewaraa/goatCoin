@@ -4,20 +4,16 @@ import MarqueeStripBlue from "../components/MarqueeBlue";
 
 const Presale = () => {
   const stage = [
-    { stage: 0, price: 0.0002, percentage: 13.18 },
-    { stage: 1, price: 0.0002, percentage: 13.18 },
-    { stage: 2, price: 0.0003, percentage: 15.38 },
-    { stage: 3, price: 0.0004, percentage: 13.33 },
-    { stage: 4, price: 0.0005, percentage: 7.26 },
-    { stage: 5, price: 0.0006, percentage: 15.38 },
-    { stage: 6, price: 0.0008, percentage: 13.33 },
-    { stage: 7, price: 0.0009, percentage: 13.18 },
-    { stage: 8, price: 0.0011, percentage: 7.33 },
-    { stage: 9, price: 0.0013, percentage: 12.34 },
-    { stage: 10, price: 0.0015, percentage: 6.67 },
-    { stage: 11, price: 0.0017, percentage: 7.33 },
-    { stage: 12, price: 0.0018, percentage: 5.58 },
-    { stage: 13, price: 0.0019, percentage: 4.67 },
+    { stage: 0, price: 0.02, percentage: 13.18 },
+    { stage: 1, price: 0.02, percentage: 13.18 },
+    { stage: 2, price: 0.03, percentage: 15.38 },
+    { stage: 3, price: 0.04, percentage: 11.11 },
+    { stage: 4, price: 0.05, percentage: 11.11 },
+    { stage: 5, price: 0.06, percentage: 11.11 },
+    { stage: 6, price: 0.08, percentage: 11.11 },
+    { stage: 7, price: 0.09, percentage: 11.11 },
+    { stage: 8, price: 0.11, percentage: 11.11 },
+    { stage: 9, price: 0.13, percentage: 11.11 },
   ];
 
   const scrollContainerRef = useRef(null);
@@ -102,7 +98,7 @@ const Presale = () => {
               {/* Other gradients */}
             </defs>
           </svg>
-          <p className="text-white text-5xl font-bold">60%</p>
+          <p className="text-white text-5xl font-bold">30%</p>
           <span className="hidden md:flex text-gray-200">
             Pre <br /> Sale
           </span>
