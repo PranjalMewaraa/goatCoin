@@ -3,7 +3,7 @@ import React, { useState } from "react";
 const FutureListing2 = () => {
   return (
     <div
-      className="w-full mt-2 flex gap-24 justify-center items-center flex-col overflow-hidden pt-[180px] pb-[60px] md:pt-[80px] md:pb-[40px] relative "
+      className="w-full mt-2 flex gap-24 justify-center items-center flex-col overflow-hidden pt-[80px] pb-[60px] md:pt-[80px] md:pb-[40px] relative "
       style={{
         backgroundImage: "url(/flbg.webp)",
         backgroundSize: "cover",
