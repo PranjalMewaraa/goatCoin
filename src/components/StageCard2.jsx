@@ -39,7 +39,7 @@ const StageCard = ({ stage, price, perc }) => {
           WebkitTextStrokeColor: "#000",
         }}
       >
-        Stage {stage}/13
+        Stage {stage}/9
       </p>
       <p
         className="text-white text-6xl tracking-tight font-extrabold"
