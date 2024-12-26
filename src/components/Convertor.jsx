@@ -170,13 +170,13 @@ const ProgressHeader = () => (
         <div className="text-sm font-semibold flex items-center gap-1">
           Current Price{" "}
           <span className="text-yellow-800 bg-gray-100 px-1 rounded-sm">
-            $0.009
+            $0.04
           </span>
         </div>
         <div className="text-sm font-semibold flex items-center gap-1">
           Next Price{" "}
           <span className="text-yellow-800 bg-gray-100 px-1 rounded-sm">
-            $0.009
+            $0.05
           </span>
         </div>
       </div>
@@ -186,7 +186,7 @@ const ProgressHeader = () => (
         </div>
       </div>
       <p className="text-xs pt-3">
-        Buy $GTPR before the price increases by 22.22%
+        Buy $GTPR before the price increases by 11.11%
       </p>
     </div>
   </div>
