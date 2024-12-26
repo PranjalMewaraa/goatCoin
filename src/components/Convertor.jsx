@@ -182,7 +182,7 @@ const ProgressHeader = () => (
       </div>
       <div className="w-full h-5 pt-3 py-2 bg-white rounded-full flex items-center">
         <div className="px-2 w-fit h-fit bg-black text-xs text-white py-2 rounded-xl">
-          5.9%
+          GTPR
         </div>
       </div>
       <p className="text-xs pt-3">
