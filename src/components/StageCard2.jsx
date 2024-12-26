@@ -56,8 +56,10 @@ const StageCard = ({ stage, price, perc }) => {
           className="text-black bg-white rounded-lg w-full shadow-lg flex flex-col p-2 gap-2"
           style={{ boxShadow: "2px 2px 2px 2px #000" }}
         >
-          <p>$250000 GOAT</p>
-          <p className="text-xs text-gray-400">$230,265.62 / $250,000.00</p>
+          <p>GTPR 33,333,333 GOAT</p>
+          <p className="text-xs text-gray-400">
+            GTPR 230,265.62 / GTPR 33,333,333
+          </p>
           <div className="w-full rounded-3xl bg-black h-4 flex items-center">
             <div className="p-1 ml-2 text-yellow-500 border border-white bg-black rounded-md text-xs">
               GOAT
