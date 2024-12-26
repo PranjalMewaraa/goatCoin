@@ -57,7 +57,7 @@ const StageCard = ({ stage, price, perc }) => {
           style={{ boxShadow: "2px 2px 2px 2px #000" }}
         >
           <p>GTPR 33,333,333</p>
-          <p className="text-xs text-gray-400">$ 230,265.62 / $ 1,333,333.20</p>
+          <p className="text-xs text-gray-400">$ 230,265.62 / $ 1,333,333.32</p>
           <div className="w-full rounded-3xl bg-black h-4 flex items-center">
             <div className="p-1 ml-2 text-yellow-500 border border-white bg-black rounded-md text-xs">
               GTPR
