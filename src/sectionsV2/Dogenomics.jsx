@@ -7,11 +7,11 @@ const Dogenomics = () => {
       style={{ backgroundImage: "url(/before.webp)" }}
     >
       <div
-        className="w-full h-screen flex justify-start items-start md:items-center py-16 px-4 md:px-16 bg-right-bottom bg-no-repeat bg-contain"
+        className="w-full h-screen flex justify-center items-start md:items-center py-16 px-4 md:px-16 bg-right-bottom bg-no-repeat bg-contain"
         style={{ backgroundImage: "url(/.png)" }}
       >
         <img
-          src="/Tokenomics.webp"
+          src="/token.svg"
           className=" lg:max-h-[550px] 2xl:max-h-[800px] md:h-auto"
           alt="tokenomicds"
         />
