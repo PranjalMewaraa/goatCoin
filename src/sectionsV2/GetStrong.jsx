@@ -10,9 +10,9 @@ const GetStrong = () => {
         backgroundRepeat: "no-repeat",
       }}
     >
-      <div className="w-full p-8 lg:p-1 flex flex-col gap-4 lg:w-1/2 left-4 absolute">
+      <div className="w-full p-8 lg:p-1 flex flex-col gap-4 lg:w-1/2 left-2 absolute">
         <h1
-          className="font-[boldx] text-5xl md:text-7xl text-white"
+          className="font-[boldx] text-3xl md:text-7xl text-white"
           style={{
             textShadow: "4px 5px 0 #000",
             WebkitTextStrokeWidth: "1.3px",
