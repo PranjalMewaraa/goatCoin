@@ -36,40 +36,36 @@ const GetStrong = () => {
           GTPR is utility token that powers the ecosystem, enabling players,
           investors, and partners to engage meaningfully with the project.
         </h2>
-        <ul class="font-semibold h-fit">
+        <ul class="font-semibold">
           <li>
-            <span class="font-bold">Zero Gas Fee Advantage:</span> Experience
-            cost-free transactions, making microtransactions and bulk transfers
-            easier.
+            <span class="font-bold">Zero Gas Fee:</span> Cost-free transactions
+            for micro and bulk transfers.
           </li>
           <li>
-            <span class="font-bold">AI Agents Asset Tokenization:</span>{" "}
-            Tokenize real-world and digital assets with AI technology for
-            enhanced liquidity, accessibility, and fractional ownership.
+            <span class="font-bold">Asset Tokenization:</span> AI-driven
+            tokenization for liquidity and fractional ownership.
           </li>
           <li>
-            <span class="font-bold">AI Agents Market Makers:</span> AI-driven
-            market makers ensure liquidity optimization and efficient price
-            discovery for a dynamic marketplace.
+            <span class="font-bold">AI Market Makers:</span> Ensuring liquidity
+            and efficient price discovery.
           </li>
           <li>
-            <span class="font-bold">Why Choose GTPR Tokens?</span>
+            <span class="font-bold">Why GTPR Tokens?</span>
             <ul>
               <li>
-                <span class="font-bold">Gasless Transactions:</span> No
-                transaction fees.
+                <span class="font-bold">Gasless:</span> No transaction fees.
               </li>
               <li>
-                <span class="font-bold">Enhanced Security:</span>{" "}
-                Blockchain-based transparency and secure smart contracts.
+                <span class="font-bold">Secure:</span> Blockchain transparency &
+                smart contracts.
               </li>
               <li>
-                <span class="font-bold">AI-Powered Ecosystem:</span> Smart AI
-                Agents for liquidity and asset management.
+                <span class="font-bold">AI-Powered:</span> Smart agents for
+                liquidity.
               </li>
               <li>
-                <span class="font-bold">Flexible Payment Methods:</span> Accepts
-                multiple cryptocurrencies for convenience.
+                <span class="font-bold">Flexible Payments:</span> Accepts
+                multiple cryptocurrencies.
               </li>
             </ul>
           </li>
