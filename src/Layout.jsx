@@ -28,6 +28,13 @@ const Navbar = () => {
 };
 
 const Layout = ({ children }) => {
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      left: 0,
+      behavior: "smooth", // For smooth scrolling
+    });
+  };
   const [isVisible, setIsVisible] = useState(true);
   const [lastScrollY, setLastScrollY] = useState(0);
 
@@ -69,6 +76,7 @@ const Layout = ({ children }) => {
         <button
           aria-label="buy_gtpr"
           name="buygtpr"
+          onClick={scrollToTop}
           className=" md:my-2 rounded-full bg-blue-400 opacity-100 font-bold text-white text-2xl px-4 md:px-16 py-2 md:py-5"
         >
           {" "}

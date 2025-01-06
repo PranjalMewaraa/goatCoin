@@ -10,14 +10,7 @@ const GetStrong = () => {
         backgroundRepeat: "no-repeat",
       }}
     >
-      <div>
-        <img
-          src="/gtb-min.webp"
-          className="bottom-0 absolute w-2/3 md:w-1/3"
-          alt="gtb"
-        />
-      </div>
-      <div className="w-full p-8 lg:p-1 flex flex-col gap-4 lg:w-1/2 right-0 absolute">
+      <div className="w-full p-8 lg:p-1 flex flex-col gap-4 lg:w-1/2 left-4 absolute">
         <h1
           className="font-[boldx] text-5xl md:text-7xl text-white"
           style={{
@@ -29,7 +22,7 @@ const GetStrong = () => {
           Why GTPR ?
         </h1>
         <h2
-          className="text-justify pr-10 text-xl md:text-3xl font-black"
+          className="text-justify pr-4 md:pr-10 text-base md:text-base font-black"
           style={{
             WebkitTextStrokeWidth: ".75ßpx",
             WebkitTextStrokeColor: "#F0B90B",
@@ -43,6 +36,51 @@ const GetStrong = () => {
           GTPR is utility token that powers the ecosystem, enabling players,
           investors, and partners to engage meaningfully with the project.
         </h2>
+        <ul class="font-semibold h-fit">
+          <li>
+            <span class="font-bold">Zero Gas Fee Advantage:</span> Experience
+            cost-free transactions, making microtransactions and bulk transfers
+            easier.
+          </li>
+          <li>
+            <span class="font-bold">AI Agents Asset Tokenization:</span>{" "}
+            Tokenize real-world and digital assets with AI technology for
+            enhanced liquidity, accessibility, and fractional ownership.
+          </li>
+          <li>
+            <span class="font-bold">AI Agents Market Makers:</span> AI-driven
+            market makers ensure liquidity optimization and efficient price
+            discovery for a dynamic marketplace.
+          </li>
+          <li>
+            <span class="font-bold">Why Choose GTPR Tokens?</span>
+            <ul>
+              <li>
+                <span class="font-bold">Gasless Transactions:</span> No
+                transaction fees.
+              </li>
+              <li>
+                <span class="font-bold">Enhanced Security:</span>{" "}
+                Blockchain-based transparency and secure smart contracts.
+              </li>
+              <li>
+                <span class="font-bold">AI-Powered Ecosystem:</span> Smart AI
+                Agents for liquidity and asset management.
+              </li>
+              <li>
+                <span class="font-bold">Flexible Payment Methods:</span> Accepts
+                multiple cryptocurrencies for convenience.
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <div className="relative w-full h-full">
+        <img
+          src="/gtb-min.webp"
+          className="bottom-0 right-0 absolute w-2/3 md:w-1/3"
+          alt="gtb"
+        />
       </div>
     </div>
   );

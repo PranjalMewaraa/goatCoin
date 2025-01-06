@@ -9,6 +9,9 @@ const Hero = () => {
   const handleViewPdf = () => {
     window.open("/whitepaper.pdf", "_blank");
   };
+  const handleViewHowToPdf = () => {
+    window.open("/howtobuy.pdf", "_blank");
+  };
   return (
     <>
       <div
@@ -361,6 +364,12 @@ const Hero = () => {
                 <FaArrowRight />
               </span>
             </button>
+            <button
+              onClick={handleViewHowToPdf}
+              className="bg-yellow-400 z-50 md:flex hidden border-4 mt-8 border-black text-black font-bold text-xl p-4 px-6 rounded-lg"
+            >
+              How to Buy GTPR
+            </button>
           </div>
           <div
             id="middle_right_layer"
@@ -383,6 +392,12 @@ const Hero = () => {
               />
             </picture>
           </div>
+          <button
+            onClick={handleViewHowToPdf}
+            className="bg-yellow-400 z-50 flex w-fit md:hidden border-4 mt-8 border-black text-black font-bold text-xl p-4 px-6 rounded-lg"
+          >
+            How to Buy GTPR
+          </button>
           <div className="absolute overflow-x-scroll bottom-4 md:bottom-10 z-10 hidden md:flex flex-wrap md:gap-2">
             <img src="/spywolf.png" alt="sw" />
             <img src="/smartstake.png" alt="ss" />
