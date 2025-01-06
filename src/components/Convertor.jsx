@@ -140,57 +140,110 @@ const CurrencyList = ({ currencies, searchQuery, onSelect }) => {
   );
 };
 
-const ProgressHeader = () => (
-  <div
-    className="w-full mb-8 min-h-1/3 border-b-2 flex flex-col gap-2 p-4 border-black"
-    style={{
-      background:
-        "linear-gradient(120deg, #F7A600 0%, #FFFF32 3.89%, #F7A600 39.07%)",
-    }}
-  >
-    <div className="text-black font-bold text-2xl">Buy $GTPR Coin</div>
-    <div className="flex flex-col">
-      <div className="text-lg font-semibold">USD Raised</div>
-      <div>
-        <span
-          className="text-5xl tracking-wider font-[boldx] text-white"
-          style={{
-            textShadow: "4px 5px 0 #000",
-            WebkitTextStrokeWidth: "1.3px",
-            WebkitTextStrokeColor: "#000",
-          }}
-        >
-          $2130{" "}
-        </span>
-        / $7330
-      </div>
-      $ 230,265.62 / $ 1,333,333.32
-      <div className="h-[1px] bg-black"></div>
-      <div className="flex w-full justify-between my-1 items-center">
-        <div className="text-sm font-semibold flex items-center gap-1">
-          Current Price{" "}
-          <span className="text-yellow-800 bg-gray-100 px-1 rounded-sm">
-            $0.04
-          </span>
-        </div>
-        <div className="text-sm font-semibold flex items-center gap-1">
-          Next Price{" "}
-          <span className="text-yellow-800 bg-gray-100 px-1 rounded-sm">
-            $0.05
-          </span>
-        </div>
-      </div>
-      <div className="w-full h-5 pt-3 py-2 bg-white rounded-full flex items-center">
-        <div className="px-2 w-fit h-fit bg-black text-xs text-white py-2 rounded-xl">
-          GTPR
-        </div>
-      </div>
-      <p className="text-xs pt-3">
-        Buy $GTPR before the price increases by 11.11%
-      </p>
-    </div>
+const SkeletonLoader = () => (
+  <div className="animate-pulse">
+    <div className="bg-gray-200 h-8 w-full mb-4 rounded-md"></div>
+    <div className="bg-gray-200 h-8 w-3/4 mb-4 rounded-md"></div>
+    <div className="bg-gray-200 h-8 w-1/2 mb-4 rounded-md"></div>
   </div>
 );
+
+const ProgressHeader = () => {
+  const [progressData, setProgressData] = useState(null);
+
+  useEffect(() => {
+    const fetchProgressData = async () => {
+      try {
+        await axios.get(`${API_BASE_URL}/gotapper/update-campaigns`);
+        await axios.get(`${API_BASE_URL}/gotapper/update-campaign-statuses`);
+        const response = await axios.get(
+          `${API_BASE_URL}/gotapper/active-campaigns`
+        );
+        const data = response?.data[0];
+        setProgressData(data);
+      } catch (error) {
+        console.error("Error fetching progress data:", error);
+      }
+    };
+
+    fetchProgressData();
+  }, []);
+
+  if (!progressData) {
+    return (
+      <div>
+        {" "}
+        <SkeletonLoader />
+      </div>
+    );
+  }
+  const {
+    raised_amount,
+    target_amount,
+    current_price,
+    next_price,
+    percentage,
+  } = progressData;
+
+  const progress = (raised_amount / target_amount) * 100;
+
+  return (
+    <div
+      className="w-full mb-8 min-h-1/3 border-b-2 flex flex-col gap-2 p-4 border-black"
+      style={{
+        background:
+          "linear-gradient(120deg, #F7A600 0%, #FFFF32 3.89%, #F7A600 39.07%)",
+      }}
+    >
+      <div className="text-black font-bold text-2xl">Buy $GTPR Coin</div>
+      <div className="flex flex-col">
+        <div className="text-lg font-semibold">USD Raised</div>
+        <div>
+          <span
+            className="text-5xl tracking-wider font-[boldx] text-white"
+            style={{
+              textShadow: "4px 5px 0 #000",
+              WebkitTextStrokeWidth: "1.3px",
+              WebkitTextStrokeColor: "#000",
+            }}
+          >
+            ${raised_amount}{" "}
+          </span>
+          / ${Number(target_amount).toLocaleString()}
+        </div>
+        <div className="h-[1px] bg-black"></div>
+        <div className="flex w-full justify-between my-1 items-center">
+          <div className="text-sm font-semibold flex items-center gap-1">
+            Current Price{" "}
+            <span className="text-yellow-800 bg-gray-100 px-1 rounded-sm">
+              ${current_price}
+            </span>
+          </div>
+          <div className="text-sm font-semibold flex items-center gap-1">
+            Next Price{" "}
+            <span className="text-yellow-800 bg-gray-100 px-1 rounded-sm">
+              ${next_price}
+            </span>
+          </div>
+        </div>
+        <div className="w-full h-5 pt-3 py-2 bg-white rounded-full flex items-center">
+          <div className="px-2 w-fit h-fit bg-black text-xs text-white py-2 rounded-xl">
+            GTPR
+          </div>
+        </div>
+        <p className="text-xs pt-3">
+          Buy $GTPR before the price increases by {percentage}%
+        </p>
+        <div className="w-full bg-gray-300 h-2 rounded-full mt-3">
+          <div
+            className="bg-green-500 h-2 rounded-full"
+            style={{ width: `${progress}%` }}
+          ></div>
+        </div>
+      </div>
+    </div>
+  );
+};
 
 const Convertor = () => {
   const [data, setData] = useState({ youPay: "", youReceive: "" });
@@ -291,7 +344,7 @@ const Convertor = () => {
     setData({
       ...data,
       [name]: value,
-      youReceive: isValid ? (numericValue / 0.01).toFixed(3) : "0.000",
+      youReceive: isValid ? (numericValue / 0.04).toFixed(3) : "0.000",
     });
   };
 

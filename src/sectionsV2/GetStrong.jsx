@@ -3,81 +3,100 @@ import React from "react";
 const GetStrong = () => {
   return (
     <div
-      className="mt-2 relative mb-4 min-h-screen h-fit md:h-screen flex lg:flex-row items-center flex-col overflow-hidden bg-cover bg-no-repeat"
+      className="mt-2 relative mb-4 min-h-screen flex flex-col lg:flex-row items-center overflow-hidden bg-cover bg-no-repeat"
       style={{
         backgroundImage: "url(/bggs.webp)",
-        backgroundSize: "cover",
-        backgroundRepeat: "no-repeat",
       }}
     >
-      <div className="w-full p-8 lg:p-1 flex flex-col gap-4 lg:w-1/2 left-2 absolute">
+      <div className="w-full p-8 lg:p-12 flex flex-col gap-6 lg:w-2/3">
         <h1
-          className="font-[boldx] text-3xl md:text-7xl text-white"
+          className="font-[boldx] text-3xl md:text-6xl text-white"
           style={{
             textShadow: "4px 5px 0 #000",
-            WebkitTextStrokeWidth: "1.3px",
-            WebkitTextStrokeColor: "#000",
+            WebkitTextStroke: "1.3px #000",
           }}
         >
           Why GTPR ?
         </h1>
         <h2
-          className="text-justify pr-4 md:pr-10 text-base md:text-base font-black"
+          className="text-justify pr-4 md:pr-10 text-base md:text-lg font-black text-black"
           style={{
-            WebkitTextStrokeWidth: ".75ßpx",
-            WebkitTextStrokeColor: "#F0B90B",
+            WebkitTextStroke: "0.75px #F0B90B",
           }}
         >
           GoatTapper (GTPR) is a community-driven, gamified blockchain project
           combining fun and financial opportunities through a tap-to-earn game
           integrated with real world value. The <strong>House-Drop</strong>{" "}
-          initiative includes tokenized realestate assets in to the ecosystem,
-          allowing user to participate in auction and own property backed NFTs.
-          GTPR is utility token that powers the ecosystem, enabling players,
-          investors, and partners to engage meaningfully with the project.
+          initiative includes tokenized real estate assets in the ecosystem,
+          allowing users to participate in auctions and own property-backed
+          NFTs. GTPR is a utility token that powers the ecosystem, enabling
+          players, investors, and partners to engage meaningfully with the
+          project.
         </h2>
-        <ul class="font-semibold">
-          <li>
-            <span class="font-bold">Zero Gas Fee:</span> Cost-free transactions
-            for micro and bulk transfers.
-          </li>
-          <li>
-            <span class="font-bold">Asset Tokenization:</span> AI-driven
-            tokenization for liquidity and fractional ownership.
-          </li>
-          <li>
-            <span class="font-bold">AI Market Makers:</span> Ensuring liquidity
-            and efficient price discovery.
-          </li>
-          <li>
-            <span class="font-bold">Why GTPR Tokens?</span>
-            <ul>
-              <li>
-                <span class="font-bold">Gasless:</span> No transaction fees.
-              </li>
-              <li>
-                <span class="font-bold">Secure:</span> Blockchain transparency &
-                smart contracts.
-              </li>
-              <li>
-                <span class="font-bold">AI-Powered:</span> Smart agents for
-                liquidity.
-              </li>
-              <li>
-                <span class="font-bold">Flexible Payments:</span> Accepts
-                multiple cryptocurrencies.
-              </li>
-            </ul>
-          </li>
-        </ul>
+        <GTPRCards />
       </div>
-      <div className="relative w-full h-full">
+      <div className="w-full lg:w-1/3 flex justify-center lg:justify-end items-end ">
         <img
           src="/gtb-min.webp"
-          className="bottom-0 right-0 absolute w-2/3 md:w-1/3 hidden md:flex"
+          className="absolute hidden md:flex bottom-0 w-2/3 md:w-1/2 lg:w-2/3 max-w-xs lg:max-w-sm"
           alt="gtb"
         />
       </div>
+    </div>
+  );
+};
+
+const GTPRCards = () => {
+  const cards = [
+    {
+      title: "Zero Gas Fee",
+      description: "Cost-free transactions for micro and bulk transfers.",
+    },
+    {
+      title: "Asset Tokenization",
+      description:
+        "AI-driven tokenization for liquidity and fractional ownership.",
+    },
+    {
+      title: "AI Market Makers",
+      description: "Ensuring liquidity and efficient price discovery.",
+    },
+    { title: "Gasless", description: "No transaction fees." },
+    {
+      title: "Secure",
+      description: "Blockchain transparency & smart contracts.",
+    },
+    { title: "AI-Powered", description: "Smart agents for liquidity." },
+    {
+      title: "Flexible Payments",
+      description: "Accepts multiple cryptocurrencies.",
+    },
+    {
+      title: "Fast Transactions",
+      description: "Instant settlements for seamless trading experience.",
+    },
+  ];
+
+  return (
+    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 w-full">
+      {cards.map((card, index) => (
+        <div
+          key={index}
+          className="p-6 border rounded-lg shadow-lg bg-white"
+          style={{ filter: "drop-shadow(5px 5px 0px #000)" }}
+        >
+          <h3
+            className="text-lg font-[boldx] text-white"
+            style={{
+              textShadow: "4px 1px 0 #000",
+              WebkitTextStroke: "1.3px #000",
+            }}
+          >
+            {card.title}
+          </h3>
+          <p className="mt-2 text-gray-700 italic">{card.description}</p>
+        </div>
+      ))}
     </div>
   );
 };

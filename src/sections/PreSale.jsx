@@ -1,7 +1,30 @@
 import React, { useRef, useEffect } from "react";
 import StageCard from "../components/StageCard";
 import MarqueeStripBlue from "../components/MarqueeBlue";
+import axios from "axios";
 const Presale = () => {
+  const [stageData, setStageData] = useState([]);
+
+  const API_BASE_URL = "https://api.faceafrika.com/api/v1";
+
+  useEffect(() => {
+    const fetchStageData = async () => {
+      try {
+        const response = await axios.get(
+          `${API_BASE_URL}/gotapper/active-campaigns`
+        );
+
+        const data = response?.data[0];
+        console.log(data);
+
+        setStageData(data);
+      } catch (error) {
+        console.error("Error fetching stage data:", error);
+      }
+    };
+
+    fetchStageData();
+  }, []);
   const stage = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14];
   const middleIndex = Math.floor(stage.length / 2); // Calculate the index of the middle stage
 
