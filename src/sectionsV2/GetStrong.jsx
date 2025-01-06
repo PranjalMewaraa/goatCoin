@@ -74,7 +74,7 @@ const GetStrong = () => {
       <div className="relative w-full h-full">
         <img
           src="/gtb-min.webp"
-          className="bottom-0 right-0 absolute w-2/3 md:w-1/3 md:hidden"
+          className="bottom-0 right-0 absolute w-2/3 md:w-1/3 hidden md:flex"
           alt="gtb"
         />
       </div>
