@@ -86,7 +86,7 @@ const GTPRCards = () => {
           style={{ filter: "drop-shadow(5px 5px 0px #000)" }}
         >
           <h3
-            className="text-lg font-[boldx] text-white"
+            className="text-xl font-[boldx] text-white"
             style={{
               textShadow: "4px 1px 0 #000",
               WebkitTextStroke: "1.3px #000",

@@ -570,7 +570,7 @@ const Convertor = () => {
                   {data.youReceive || "0.000"} GTPR
                 </div>
                 <div className="text-sm text-gray-500 mt-1">
-                  Rate: 1 GTPR = $0.01 USD
+                  Rate: 1 GTPR = $0.04 USD
                 </div>
               </div>
             </div>
