@@ -5,7 +5,7 @@ const GetStrong = () => {
     <div
       className="mt-2 relative mb-4 min-h-screen flex flex-col lg:flex-row items-center overflow-hidden bg-cover bg-no-repeat"
       style={{
-        backgroundImage: "url(/bggs.webp)",
+        backgroundImage: "url(/try.jpeg)",
       }}
     >
       <div className="w-full p-8 lg:p-12 flex flex-col gap-6 lg:w-2/3">
@@ -19,9 +19,10 @@ const GetStrong = () => {
           Why GTPR ?
         </h1>
         <h2
-          className="text-justify pr-4 md:pr-10 text-base md:text-lg font-black text-black"
+          className="text-justify p-4 md:p-6 text-base bg-white md:text-lg font-black text-black"
           style={{
-            WebkitTextStroke: "0.75px #F0B90B",
+            WebkitTextStroke: "0.5px #F0B90B",
+            filter: "drop-shadow(5px 5px 0px #000)",
           }}
         >
           GoatTapper (GTPR) is a community-driven, gamified blockchain project

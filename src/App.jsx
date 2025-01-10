@@ -30,7 +30,7 @@ function App() {
           element={
             <Layout>
               <Hero />
-              <Brands />
+              {/* <Brands /> */}
               <GetStrong />
               <FutureListing />
               <NoMoreShitCoin />
