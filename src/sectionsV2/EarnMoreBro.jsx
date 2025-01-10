@@ -33,14 +33,14 @@ const EarnMore = () => {
 
       <div
         style={{ backgroundImage: "url(/ss.webp)" }}
-        className="w-full bg-right-bottom bg-no-repeat bg-contain bg-[#ffbf00] relative px-12 py-12 md:py-24 pb-16 md:pb-1 md:px-24 md:min-h-[100vh] h-full hidden xl:flex flex-col  "
+        className="w-full bg-right-bottom bg-no-repeat bg-contain bg-[#3D6047] relative px-12 py-12 md:py-24 pb-16 md:pb-1 md:px-24 md:min-h-[100vh] h-full hidden xl:flex flex-col  "
       >
         <div className="md:-rotate-3 flex flex-col gap-8">
           <div
-            className=" uppercase text-white  font-[boldx] text-6xl "
+            className=" uppercase text-green-500  font-[boldx] text-6xl "
             style={{
-              textShadow: "6.345px 7.614px 0px #000",
-              WebkitTextStrokeWidth: "1.3px",
+              textShadow: "6.345px 7.614px 0px #E1FF00",
+              WebkitTextStrokeWidth: "1.9px",
               WebkitTextStrokeColor: "#000",
             }}
           >
@@ -48,7 +48,7 @@ const EarnMore = () => {
             <br />
             Earn More
           </div>
-          <p className="text-black font-semibold text-xl">
+          <p className="text-white font-semibold text-xl">
             Play-to-Own is the Future. Build your Real Estate Portfolio by
             tapping your way up
           </p>
@@ -310,12 +310,12 @@ const EarnMore = () => {
           </div>
         </div>
       </div>
-      <div className="w-full scale-105 bg-yellow-400 relative px-4 py-12 md:py-24 h-full  md:pb-1 md:px-24 md:min-h-[100vh] flex xl:hidden flex-col  bg-cover bg-no-repeat">
+      <div className="w-full scale-105  bg-[#3D6047] relative px-4 py-12 md:py-24 h-full  md:pb-1 md:px-24 md:min-h-[100vh] flex xl:hidden flex-col  bg-cover bg-no-repeat">
         <div className="md:-rotate-3 flex flex-col gap-8">
           <div
-            className=" uppercase text-white  font-[boldx] text-6xl "
+            className=" uppercase text-green-500  font-[boldx] text-6xl "
             style={{
-              textShadow: "6.345px 7.614px 0px #000",
+              textShadow: "6.345px 7.614px 0px #E1FF00",
               WebkitTextStrokeWidth: "1.3px",
               WebkitTextStrokeColor: "#000",
             }}
@@ -324,7 +324,7 @@ const EarnMore = () => {
             <br />
             Earn More
           </div>
-          <p className="text-black font-semibold text-xl">
+          <p className="text-white font-semibold text-xl">
             Get income from your friends' purchases—and their friends' too, up{" "}
             to three levels! <br /> Build your own DOGEN army!
           </p>

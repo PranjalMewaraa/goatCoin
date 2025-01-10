@@ -16,7 +16,7 @@ const Hero = () => {
       >
         <div className="max-w-[1560px] w-full flex flex-col gap-4 h-[100vh] overflow-hidden md:pt-20 md:px-16 bg-no-repeat relative bg-cover">
           <div id="bottom_layer" className="md:absolute">
-            <div className="w-full scale-75 md:scale-100 2xl:scale-110 flex gap-4 ">
+            <div className="w-full hidden scale-75 md:scale-100 2xl:scale-110  gap-4 ">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="292"
@@ -278,15 +278,18 @@ const Hero = () => {
                 </defs>
               </svg>
             </div>
+            <div className="w-full">
+              <img src="/goat.svg" alt="" />
+            </div>
             <div className="bg-white h-48 w-96 border-4 border-black p-4 text-2xl font-semibold">
               Stop waiting for some wonders. Be a G.O.A.T with{" "}
               <span className="font-bold">$GTPR</span>
               <br />
               <span className="flex gap-4 mt-4">
-                <span className="p-2 bg-black h-12 w-12 aspect-square rounded-full">
+                <span className="p-2 bg-green-500 h-12 w-12 aspect-square rounded-full">
                   <img src="/img/hero/telegram.png" alt="tg" />
                 </span>
-                <span className="p-2 bg-black h-12 w-12 aspect-square rounded-full">
+                <span className="p-2 bg-green-500 h-12 w-12 aspect-square rounded-full">
                   <img src="/img/hero/twitter.png" alt="tx" />
                 </span>
               </span>

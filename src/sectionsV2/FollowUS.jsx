@@ -5,7 +5,7 @@ const FutureListing2 = () => {
     <div
       className="w-full mt-2 flex gap-24 justify-center items-center flex-col overflow-hidden pt-[80px] pb-[60px] md:pt-[80px] md:pb-[40px] relative "
       style={{
-        backgroundImage: "url(/flbg.webp)",
+        backgroundImage: "url(/fbg.webp)",
         backgroundSize: "cover",
         backgroundRepeat: "no-repeat",
       }}
@@ -33,7 +33,7 @@ const FutureListing2 = () => {
             alt="x"
           />
 
-          <p className="font-[nav] md:hidden text-3xl">TWITTER</p>
+          <p className="font-[nav] md:hidden text-3xl text-white">TWITTER</p>
         </span>
         <span
           className="flex gap-2 cursor-pointer items-center"
@@ -46,7 +46,7 @@ const FutureListing2 = () => {
             src="/img/hero/telegram.png"
             alt="tg"
           />
-          <p className="font-[nav] md:hidden text-3xl">TELEGRAM</p>
+          <p className="font-[nav] md:hidden text-3xl text-white">TELEGRAM</p>
         </span>
         <span
           className="flex gap-2 cursor-pointer items-center"
@@ -59,7 +59,7 @@ const FutureListing2 = () => {
             src="/youtube.webp"
             alt="yt"
           />
-          <p className="font-[nav] md:hidden text-3xl">YOUTUBE</p>
+          <p className="font-[nav] md:hidden text-3xl text-white">YOUTUBE</p>
         </span>
 
         <span
@@ -73,7 +73,7 @@ const FutureListing2 = () => {
             src="/discord-min.webp"
             alt="discord"
           />
-          <p className="font-[nav] md:hidden text-3xl">DISCORD</p>
+          <p className="font-[nav] md:hidden text-3xl text-white">DISCORD</p>
         </span>
       </div>
     </div>

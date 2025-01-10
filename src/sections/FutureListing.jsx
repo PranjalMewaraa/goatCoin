@@ -35,7 +35,7 @@ const FutureListing = () => {
     <div
       className="w-full flex gap-24 justify-center items-center flex-col overflow-hidden pt-[80px] pb-[60px] md:pt-[80px] md:pb-[80px] relative"
       style={{
-        backgroundImage: "url(/flbg.webp)",
+        backgroundImage: "url(/fbg.webp)",
         backgroundSize: "cover",
         backgroundRepeat: "no-repeat",
       }}
@@ -44,7 +44,7 @@ const FutureListing = () => {
         className="font-[boldx] text-center text-white text-7xl md:text-5xl"
         style={{
           textShadow: "4px 5px 0 #000",
-          WebkitTextStrokeWidth: "1.3px",
+          WebkitTextStrokeWidth: "1.8px",
           WebkitTextStrokeColor: "#000",
         }}
       >

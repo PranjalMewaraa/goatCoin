@@ -8,7 +8,7 @@ const Faq = () => {
       <div
         className="w-full h-fit  scale-110 md:scale-110 rotate-2 translate-x-5 flex flex-col items-center gap-4 py-16"
         style={{
-          background: "url(/bgfaq.webp)",
+          background: "url(/d2.webp)",
           backgroundSize: "cover",
           backgroundRepeat: "no-repeat",
         }}

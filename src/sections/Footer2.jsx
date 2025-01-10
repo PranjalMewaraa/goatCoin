@@ -46,7 +46,7 @@ const Footer2 = () => {
               window.location.href = "https://t.me/goattapper";
             }}
           >
-            <span className="p-2  bg-[#F7A600] rounded-full">
+            <span className="p-2   bg-green-500 rounded-full">
               {" "}
               <img
                 width={24}
@@ -62,7 +62,7 @@ const Footer2 = () => {
               window.location.href = "https://x.com/TapperGoat";
             }}
           >
-            <span className="p-2  bg-[#F7A600] rounded-full">
+            <span className="p-2   bg-green-500 rounded-full">
               {" "}
               <img
                 width={24}
@@ -78,7 +78,7 @@ const Footer2 = () => {
               window.location.href = "https://discord.gg/tK8rvVzrWf";
             }}
           >
-            <span className="p-2  bg-[#F7A600] rounded-full">
+            <span className="p-2   bg-green-500 rounded-full">
               {" "}
               <img
                 width={24}
@@ -94,7 +94,7 @@ const Footer2 = () => {
               window.location.href = "https://www.youtube.com/@GoatTapper";
             }}
           >
-            <span className="p-2  bg-[#F7A600] rounded-full">
+            <span className="p-2  bg-green-500 rounded-full">
               {" "}
               <img
                 width={24}
@@ -109,7 +109,7 @@ const Footer2 = () => {
       <div className="flex flex-col gap-4">
         <div
           onClick={scrollToTop}
-          className="py-4 px-6 flex flex-col text-black font-bold justify-center items-center bg-[#F7A600] rounded-full w-fit"
+          className="py-4 px-6 flex flex-col text-black font-bold justify-center items-center bg-green-500 rounded-full w-fit"
         >
           <img src="/Frame.svg" alt="fr" />
           <p>To to Top</p>

@@ -18,9 +18,9 @@ const Hero = () => {
         className="w-full h-fit  bg-no-repeat bg-cover flex flex-col items-center"
         style={{ backgroundImage: "url(/newhero.webp)" }}
       >
-        <div className="max-w-[1560px] lg:h-[900px] w-full flex flex-col gap-4 h-[100vh] overflow-hidden md:pt-20 lg:px-16 bg-no-repeat relative bg-cover">
+        <div className="max-w-[1560px] lg:h-[1100px] w-full flex flex-col gap-4 h-[100vh] overflow-hidden md:pt-20 lg:px-16 bg-no-repeat relative bg-cover">
           <div id="bottom_layer" className="md:w-full md:absolute">
-            <div className="w-full scale-90 md:scale-75 lg:scale-100 2xl:scale-110 flex gap-4 ">
+            <div className="w-full scale-90 md:scale-75 lg:scale-100 2xl:scale-110 hidden gap-4 ">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="292"
@@ -282,6 +282,9 @@ const Hero = () => {
                 </defs>
               </svg>
             </div>
+            <div className="w-full mt-20 lg:mt-2 flex justify-center md:justify-start">
+              <img src="/goat.svg" alt="" className="w-5/6 lg:px-16" />
+            </div>
             <button
               aria-label="whitepaper"
               name="herowhitepaper"
@@ -299,7 +302,7 @@ const Hero = () => {
                 <span className="w-1/2 flex gap-6">
                   {" "}
                   <span
-                    className=" bg-black hover:bg-yellow-400 cursor-pointer h-12 w-12 aspect-square rounded-full"
+                    className=" bg-green-500 hover:bg-yellow-400 cursor-pointer h-12 w-12 aspect-square rounded-full"
                     onClick={() => {
                       window.location.href = "https://t.me/goattapper";
                     }}
@@ -311,7 +314,7 @@ const Hero = () => {
                     />
                   </span>
                   <span
-                    className=" bg-black hover:bg-yellow-400 h-12 cursor-pointer w-12 aspect-square rounded-full"
+                    className=" bg-green-500 hover:bg-yellow-400 h-12 cursor-pointer w-12 aspect-square rounded-full"
                     onClick={() => {
                       window.location.href = "https://x.com/TapperGoat";
                     }}
@@ -373,7 +376,7 @@ const Hero = () => {
           </div>
           <div
             id="middle_right_layer"
-            className="lg:flex hidden absolute right-20 top-40 w-[400px]  2xl:top-64 z-50"
+            className="lg:flex hidden absolute right-20 top-56 w-[400px]  2xl:top-96 z-50"
           >
             <Convertor />
           </div>

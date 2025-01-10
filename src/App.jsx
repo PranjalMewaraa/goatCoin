@@ -18,8 +18,27 @@ import BlackSection from "./sectionsV2/BlackSection";
 import PrivacyPolicy from "./Privacy";
 import TermsAndConditions from "./TermsCondition";
 import ScrollToTop from "./ScrollToTop";
+import MarqueeStrip from "./components/Marquee";
 
 function App() {
+  const DATA_LIST = [
+    { text: "APP COMING SOON " },
+    { text: "APP COMING SOON " },
+    { text: "APP COMING SOON " },
+    { text: "APP COMING SOON " },
+    { text: "APP COMING SOON " },
+    { text: "APP COMING SOON " },
+    { text: "APP COMING SOON " },
+    { text: "APP COMING SOON " },
+    { text: "APP COMING SOON " },
+    { text: "APP COMING SOON " },
+    { text: "APP COMING SOON " },
+    { text: "APP COMING SOON " },
+    { text: "APP COMING SOON " },
+    { text: "APP COMING SOON " },
+    { text: "APP COMING SOON " },
+    { text: "APP COMING SOON " },
+  ];
   return (
     <Router>
       <ScrollToTop />
@@ -31,6 +50,9 @@ function App() {
             <Layout>
               <Hero />
               {/* <Brands /> */}
+              <div className="overflow-hidden relative rotate scale-105 md:scale-100 bg-black w-full h-20 flex items-center">
+                <MarqueeStrip DATA_LIST={DATA_LIST} />
+              </div>
               <GetStrong />
               <FutureListing />
               <NoMoreShitCoin />
@@ -40,7 +62,7 @@ function App() {
               <BlackSection />
               <Roadmap />
               <EarnMore />
-              <div className="bg-yellow-400 md:hidden p-4 h-[60vh] mb-16 items-start flex">
+              <div className=" bg-[#3D6047] md:hidden p-4 h-[60vh] mb-16 items-start flex">
                 <div
                   className="w-full h-full bg-no-repeat  bg-contain"
                   style={{ backgroundImage: "url('/ss.webp')" }}

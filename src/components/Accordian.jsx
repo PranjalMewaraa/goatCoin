@@ -72,7 +72,7 @@ const Accordion = () => {
         >
           <div
             className={`p-6 min-w-3xl shadow-xl ${
-              index % 2 === 0 ? "bg-sky-200" : "bg-gray-200"
+              index % 2 === 0 ? "bg-[#599A6A] text-white" : "bg-gray-200"
             } rounded-2xl cursor-pointer flex justify-between items-center`}
           >
             <span className="text-xl font-semibold uppercase">
@@ -100,7 +100,7 @@ const Accordion = () => {
           {openIndex === index && (
             <div
               className={`absolute p-6 z-50 font-bold text-gray-500 min-h-24 h-fit rounded-b-2xl rounded-t-md w-full  ${
-                index % 2 === 0 ? "bg-sky-200" : "bg-gray-200"
+                index % 2 === 0 ? "bg-[#599A6A] text-gray-50" : "bg-gray-200"
               }`}
             >
               <p>{item.answer}</p>

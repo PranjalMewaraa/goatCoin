@@ -35,7 +35,7 @@ const FutureListing = () => {
     <div
       className="w-full h-fit  flex gap-24 md:gap-16 justify-center items-center flex-col overflow-hidden pt-[80px] pb-[60px] md:pt-[80px] md:pb-42 relative"
       style={{
-        backgroundImage: "url(flbg.webp)",
+        backgroundImage: "url(d1.webp)",
         backgroundSize: "cover",
         backgroundRepeat: "no-repeat",
       }}

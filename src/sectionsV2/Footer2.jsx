@@ -40,7 +40,7 @@ const Footer2 = () => {
         <p className="font-extrabold text-gray-400 text-xl">Follow us on</p>
         <ul className="flex flex-col gap-4">
           <li className="flex gap-2 text-2xl font-black items-center">
-            <span className="p-2  bg-yellow-300 rounded-full">
+            <span className="p-2  bg-green-300 rounded-full">
               <img
                 width={24}
                 src="https://cdn-icons-png.flaticon.com/128/4423/4423446.png"
@@ -50,7 +50,7 @@ const Footer2 = () => {
             Telegram
           </li>
           <li className="flex gap-2 text-2xl font-black items-center">
-            <span className="p-2  bg-yellow-300 rounded-full">
+            <span className="p-2  bg-green-300 rounded-full">
               <img
                 width={24}
                 src="https://cdn-icons-png.flaticon.com/128/4423/4423446.png"
