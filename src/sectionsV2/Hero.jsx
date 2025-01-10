@@ -16,7 +16,7 @@ const Hero = () => {
     <>
       <div
         className="w-full h-fit  bg-no-repeat bg-cover flex flex-col items-center"
-        style={{ backgroundImage: "url(/bg-hero.webp)" }}
+        style={{ backgroundImage: "url(/newhero.webp)" }}
       >
         <div className="max-w-[1560px] lg:h-[1100px] w-full flex flex-col gap-4 h-[100vh] overflow-hidden md:pt-20 lg:px-16 bg-no-repeat relative bg-cover">
           <div id="bottom_layer" className="md:w-full md:absolute">
