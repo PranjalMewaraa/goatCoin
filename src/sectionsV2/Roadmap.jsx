@@ -146,10 +146,10 @@ const Roadmap = () => {
       }}
     >
       <h1
-        className="font-[boldx] text-center mt-8 text-yellow-500 text-7xl md:text-9xl"
+        className="font-[boldx] text-center mt-8 text-green-500 text-7xl md:text-9xl"
         style={{
-          textShadow: "4px 8px 0 #000",
-          WebkitTextStrokeWidth: "1.3px",
+          textShadow: "4px 8px 0 #F1FFB8",
+          WebkitTextStrokeWidth: "2.4px",
           WebkitTextStrokeColor: "#000",
         }}
       >

@@ -46,11 +46,11 @@ const NoMoreShitCoin = () => {
           Wait For The
         </div> */}
         <div
-          className="uppercase font-[boldx] text-[#faaa39] text-6xl text-center mt-auto mb-20 md:mb-10  md:text-9xl -rotate-3"
+          className="uppercase font-[boldx] text-green-500 text-6xl text-center mt-auto mb-20 md:mb-10  md:text-9xl -rotate-3"
           style={{
             textAlign: "center",
-            textShadow: "3.908px 4.69px 0 #000",
-            WebkitTextStrokeWidth: "0.8568549156188965px",
+            textShadow: "3.908px 4.69px 0 #FFD319",
+            WebkitTextStrokeWidth: "2.8568549156188965px",
             WebkitTextStrokeColor: "#000",
             textTransform: "uppercase",
           }}

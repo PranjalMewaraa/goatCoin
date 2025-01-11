@@ -46,7 +46,7 @@ const BlackSection = () => {
         <span
           className="text-yellow-300"
           style={{
-            background: "linear-gradient(180deg, #F7A600 0%, #FFD319 100%)",
+            background: "linear-gradient(180deg, #275C5A 0%, #8CBC66 100%)",
             backgroundClip: "text",
             WebkitBackgroundClip: "text",
             WebkitTextFillColor: "transparent",
@@ -84,7 +84,7 @@ const BlackSection = () => {
             name="left"
             aria-label="leftscroll"
             onClick={() => scroll("left")}
-            className="bg-yellow-500 text-white border-2 border-white p-2 rounded-full shadow-lg"
+            className="bg-green-500 text-white border-2 border-white p-2 rounded-full shadow-lg"
           >
             <svg
               width="15"
@@ -106,7 +106,7 @@ const BlackSection = () => {
             aria-label="right-scroll"
             name="right"
             onClick={() => scroll("right")}
-            className="bg-yellow-500 text-white border-2 border-white p-2 rounded-full shadow-lg"
+            className="bg-green-500 text-white border-2 border-white p-2 rounded-full shadow-lg"
           >
             <svg
               width="15"

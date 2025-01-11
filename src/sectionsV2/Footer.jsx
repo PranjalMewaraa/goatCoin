@@ -29,7 +29,7 @@ const Footer = () => {
       <div className="w-full h-full flex flex-col items-center justify-center ">
         <div
           style={{
-            background: "linear-gradient(180deg, #F7A600 0%, #FFD319 100%)",
+            background: "linear-gradient(180deg, #275C5A 0%, #8CBC66 100%)",
           }}
           className="md:h-[110px] mt-20 bg-[#FFD319] z-10 md:rounded-[15px_77px_77px_15px] flex p-[6px] md:pl-[32px] max-w-[950px] gap-4 justify-between md:gap-[40px] flex-col md:flex-row m-auto rounded-[15px] h-auto md:p-[15px] mx-[10px]"
         >

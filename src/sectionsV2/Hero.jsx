@@ -1,6 +1,6 @@
 import React from "react";
 
-import Convertor from "../components/Convertor";
+import Convertor from "../components/ConvertorGreen";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { FaArrowRight } from "react-icons/fa6";
 // Import Swiper styles
@@ -369,7 +369,7 @@ const Hero = () => {
             </button>
             <button
               onClick={handleViewHowToPdf}
-              className="bg-yellow-400 z-50 md:flex hidden border-4 mt-8 border-black text-black font-bold text-xl p-4 px-6 rounded-lg"
+              className="bg-green-400 z-50 md:flex hidden border-4 mt-8 border-black text-black font-bold text-xl p-4 px-6 rounded-lg"
             >
               How to Buy GTPR
             </button>
@@ -397,7 +397,7 @@ const Hero = () => {
           </div>
           <button
             onClick={handleViewHowToPdf}
-            className="bg-yellow-400 z-50 flex w-fit md:hidden border-4 mt-8 border-black text-black font-bold text-xl p-4 px-6 rounded-lg"
+            className="bg-green-400 z-50 flex w-fit md:hidden border-4 mt-8 border-black text-black font-bold text-xl p-4 px-6 rounded-lg"
           >
             How to Buy GTPR
           </button>

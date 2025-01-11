@@ -3,7 +3,7 @@ import React from "react";
 const Dogenomics = () => {
   return (
     <div
-      className="w-full h-fit md:min-h-screen bg-contain border-t-8 border-black bg-[#BEFEFF]"
+      className="w-full h-fit md:min-h-screen bg-cover bg-no-repeat lg:bg-contain border-t-8 border-black bg-[#BEFEFF]"
       style={{ backgroundImage: "url(/xxx.webp)" }}
     >
       <div

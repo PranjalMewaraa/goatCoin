@@ -5,7 +5,7 @@ const GetStrong = () => {
     <div
       className="mt-2 relative mb-4 min-h-screen flex flex-col lg:flex-row items-center overflow-hidden bg-cover bg-no-repeat"
       style={{
-        backgroundImage: "url(/try.webp)",
+        backgroundImage: "url(/bcbg.webp)",
       }}
     >
       <div className="w-full p-8 lg:p-12 flex flex-col gap-6 lg:w-2/3">
