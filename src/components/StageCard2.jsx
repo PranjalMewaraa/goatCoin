@@ -31,10 +31,11 @@ const StageCard = ({ stage, price, perc }) => {
     background = "linear-gradient(138deg, #00BABD 0%, #00979A 100%)";
     border = "2px solid #2d3d39;";
   } else if (stage > currentStage) {
-    background = "linear-gradient(138deg, #24463D 0%, #030104 100%)";
+    background =
+      "linear-gradient(120deg, #8CBC66 6%, #8CBC66 18.89%, #275C5A 99.07%)";
     border = "2px solid #2d3d39;";
   } else if (stage === currentStage) {
-    background = "linear-gradient(147deg, #FFD700 0%, #FF8C00 75.54%)";
+    background = "linear-gradient(138deg, #FFD317 0%, #E1FF00 100%)";
     border = "2px solid #2d3d39;";
   }
 
