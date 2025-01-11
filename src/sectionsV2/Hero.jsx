@@ -371,7 +371,7 @@ const Hero = () => {
               onClick={handleViewHowToPdf}
               className="bg-green-400 z-50 md:flex hidden border-4 mt-8 border-black text-black font-bold text-xl p-4 px-6 rounded-lg"
             >
-              How to Buy GTPR
+              How to Buy GTPR ?
             </button>
           </div>
           <div
@@ -399,7 +399,7 @@ const Hero = () => {
             onClick={handleViewHowToPdf}
             className="bg-green-400 z-50 flex w-fit md:hidden border-4 mt-8 border-black text-black font-bold text-xl p-4 px-6 rounded-lg"
           >
-            How to Buy GTPR
+            How to Buy GTPR ?
           </button>
           {/* <div className="absolute overflow-x-scroll bottom-4 md:bottom-10 z-10 hidden md:flex flex-wrap md:gap-2">
             <img src="/spywolf.png" alt="sw" />
