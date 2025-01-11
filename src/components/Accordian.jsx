@@ -78,13 +78,13 @@ const Accordion = () => {
             <span className="text-xl font-semibold uppercase">
               {item.question}
             </span>
-            <span className="text-white bg-yellow-500 rounded-full">
+            <span className="text-white bg-white rounded-full border border-black">
               <svg
                 className={`w-5 h-5 transition-transform duration-200 ${
                   openIndex === index ? "transform rotate-180" : ""
                 }`}
                 xmlns="http://www.w3.org/2000/svg"
-                fill="none"
+                fill="black"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
               >

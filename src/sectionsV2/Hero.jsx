@@ -18,7 +18,7 @@ const Hero = () => {
         className="w-full h-fit  bg-no-repeat bg-cover flex flex-col items-center"
         style={{ backgroundImage: "url(/newhero.webp)" }}
       >
-        <div className="max-w-[1560px] lg:h-[1100px] w-full flex flex-col gap-4 h-[100vh] overflow-hidden md:pt-20 lg:px-16 bg-no-repeat relative bg-cover">
+        <div className="max-w-[1560px] xl:h-[900px] 2xl:h-[1100px] w-full flex flex-col gap-4 h-[100vh] overflow-hidden md:pt-20 lg:px-16 bg-no-repeat relative bg-cover">
           <div id="bottom_layer" className="md:w-full md:absolute">
             <div className="w-full scale-90 md:scale-75 lg:scale-100 2xl:scale-110 hidden gap-4 ">
               <svg
@@ -282,7 +282,7 @@ const Hero = () => {
                 </defs>
               </svg>
             </div>
-            <div className="w-full mt-20 lg:mt-2 flex justify-center md:justify-start">
+            <div className="w-full mt-8 lg:mt-2 flex justify-center md:justify-start">
               <img src="/goat.svg" alt="" className="w-5/6 lg:px-16" />
             </div>
             <button

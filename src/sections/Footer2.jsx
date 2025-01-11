@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import MarqueeStrip from "../components/Marquee";
 
 const Footer2 = () => {
   const scrollToTop = () => {
@@ -10,112 +11,136 @@ const Footer2 = () => {
     });
   };
 
+  const DATA_LIST = [
+    { text: "BECOME A GOAT " },
+    { text: "BECOME A GOAT " },
+    { text: "BECOME A GOAT " },
+    { text: "BECOME A GOAT " },
+    { text: "BECOME A GOAT " },
+    { text: "BECOME A GOAT " },
+    { text: "BECOME A GOAT " },
+    { text: "BECOME A GOAT " },
+    { text: "BECOME A GOAT " },
+    { text: "BECOME A GOAT " },
+    { text: "BECOME A GOAT " },
+    { text: "BECOME A GOAT " },
+    { text: "BECOME A GOAT " },
+    { text: "BECOME A GOAT " },
+    { text: "BECOME A GOAT " },
+    { text: "BECOME A GOAT " },
+  ];
   return (
-    <div className="w-full pb-24 p-8 text-white  gap-6 flex   flex-col md:flex-row justify-evenly">
-      <div className="flex flex-col w-full md:w-1/3 gap-4">
-        <p className="text-sm text-justify">
-          Trading cryptocurrencies is highly speculative, carries a high level
-          of risk, and may not be suitable for all investors. You may lose some
-          or all of your invested capital; therefore, you should not speculate
-          with capital that you cannot afford to lose. The content on this site
-          should not be considered investment advice. Investing is speculative.
-          When investing, your capital is at risk. <br /> We do not allow users
-          from the following countries to participate in the presale:
-          Afghanistan, Benin, Bhutan, China, Crimea region, Cuba, Iran, Iraq,
-          Syria, USA, and Vatican City. The information on this site is not
-          intended for residents of these countries or for use by any person in
-          any country or jurisdiction where such distribution or use would be
-          contrary to local laws or regulations. <br /> The 'Future Listings'
-          section displays exchanges with which we are discussing potential
-          listings. This is for informational purposes only and does not
-          guarantee the listing of $GTPR on any particular exchange or platform.
-          We reserve the right to update this information at any time without
-          prior notice.
-        </p>
-        <p className="text-xl flex gap-6 font-extrabold">
-          <Link to={"/privacy-policy"}>Privacy Policy</Link>
-          <Link to={"/terms-and-conditions"}>Terms and Regulations</Link>
-        </p>
+    <>
+      {" "}
+      <div className="overflow-hidden   origin-top-left bg-[#00BABD] scale-105 w-full z-40 h-20 flex items-center">
+        <MarqueeStrip DATA_LIST={DATA_LIST} />
       </div>
-      <div className="flex flex-col gap-4">
-        <p className="font-extrabold text-gray-400 text-xl">Follow us on</p>
-        <ul className="flex flex-col gap-4">
-          <li
-            className="flex gap-2 cursor-pointer text-2xl font-black items-center"
-            onClick={() => {
-              window.location.href = "https://t.me/goattapper";
-            }}
+      <div className="w-full pb-24 p-8 text-white  gap-6 flex   flex-col md:flex-row justify-evenly">
+        <div className="flex flex-col w-full md:w-1/3 gap-4">
+          <p className="text-sm text-justify">
+            Trading cryptocurrencies is highly speculative, carries a high level
+            of risk, and may not be suitable for all investors. You may lose
+            some or all of your invested capital; therefore, you should not
+            speculate with capital that you cannot afford to lose. The content
+            on this site should not be considered investment advice. Investing
+            is speculative. When investing, your capital is at risk. <br /> We
+            do not allow users from the following countries to participate in
+            the presale: Afghanistan, Benin, Bhutan, China, Crimea region, Cuba,
+            Iran, Iraq, Syria, USA, and Vatican City. The information on this
+            site is not intended for residents of these countries or for use by
+            any person in any country or jurisdiction where such distribution or
+            use would be contrary to local laws or regulations. <br /> The
+            'Future Listings' section displays exchanges with which we are
+            discussing potential listings. This is for informational purposes
+            only and does not guarantee the listing of $GTPR on any particular
+            exchange or platform. We reserve the right to update this
+            information at any time without prior notice.
+          </p>
+          <p className="text-xl flex gap-6 font-extrabold">
+            <Link to={"/privacy-policy"}>Privacy Policy</Link>
+            <Link to={"/terms-and-conditions"}>Terms and Regulations</Link>
+          </p>
+        </div>
+        <div className="flex flex-col gap-4">
+          <p className="font-extrabold text-gray-400 text-xl">Follow us on</p>
+          <ul className="flex flex-col gap-4">
+            <li
+              className="flex gap-2 cursor-pointer text-2xl font-black items-center"
+              onClick={() => {
+                window.location.href = "https://t.me/goattapper";
+              }}
+            >
+              <span className="p-2   bg-green-500 rounded-full">
+                {" "}
+                <img
+                  width={24}
+                  src="https://cdn-icons-png.flaticon.com/128/4423/4423446.png"
+                  alt="ict"
+                />
+              </span>
+              Telegram
+            </li>
+            <li
+              className="flex gap-2 cursor-pointer text-2xl font-black items-center"
+              onClick={() => {
+                window.location.href = "https://x.com/TapperGoat";
+              }}
+            >
+              <span className="p-2   bg-green-500 rounded-full">
+                {" "}
+                <img
+                  width={24}
+                  src="https://cdn-icons-png.flaticon.com/128/5968/5968958.png"
+                  alt="x"
+                />
+              </span>
+              Twitter
+            </li>
+            <li
+              className="flex gap-2 cursor-pointer text-2xl font-black items-center"
+              onClick={() => {
+                window.location.href = "https://discord.gg/tK8rvVzrWf";
+              }}
+            >
+              <span className="p-2   bg-green-500 rounded-full">
+                {" "}
+                <img
+                  width={24}
+                  src="https://cdn-icons-png.flaticon.com/128/4945/4945914.png"
+                  alt="discord"
+                />
+              </span>
+              Discord
+            </li>
+            <li
+              className="flex gap-2 cursor-pointer text-2xl font-black items-center"
+              onClick={() => {
+                window.location.href = "https://www.youtube.com/@GoatTapper";
+              }}
+            >
+              <span className="p-2  bg-green-500 rounded-full">
+                {" "}
+                <img
+                  width={24}
+                  src="https://cdn-icons-png.flaticon.com/128/152/152810.png"
+                  alt="yt"
+                />
+              </span>
+              Youtube
+            </li>
+          </ul>
+        </div>
+        <div className="flex flex-col gap-4">
+          <div
+            onClick={scrollToTop}
+            className="py-4 px-6 flex flex-col text-black font-bold justify-center items-center bg-green-500 rounded-full w-fit"
           >
-            <span className="p-2   bg-green-500 rounded-full">
-              {" "}
-              <img
-                width={24}
-                src="https://cdn-icons-png.flaticon.com/128/4423/4423446.png"
-                alt="ict"
-              />
-            </span>
-            Telegram
-          </li>
-          <li
-            className="flex gap-2 cursor-pointer text-2xl font-black items-center"
-            onClick={() => {
-              window.location.href = "https://x.com/TapperGoat";
-            }}
-          >
-            <span className="p-2   bg-green-500 rounded-full">
-              {" "}
-              <img
-                width={24}
-                src="https://cdn-icons-png.flaticon.com/128/5968/5968958.png"
-                alt="x"
-              />
-            </span>
-            Twitter
-          </li>
-          <li
-            className="flex gap-2 cursor-pointer text-2xl font-black items-center"
-            onClick={() => {
-              window.location.href = "https://discord.gg/tK8rvVzrWf";
-            }}
-          >
-            <span className="p-2   bg-green-500 rounded-full">
-              {" "}
-              <img
-                width={24}
-                src="https://cdn-icons-png.flaticon.com/128/4945/4945914.png"
-                alt="discord"
-              />
-            </span>
-            Discord
-          </li>
-          <li
-            className="flex gap-2 cursor-pointer text-2xl font-black items-center"
-            onClick={() => {
-              window.location.href = "https://www.youtube.com/@GoatTapper";
-            }}
-          >
-            <span className="p-2  bg-green-500 rounded-full">
-              {" "}
-              <img
-                width={24}
-                src="https://cdn-icons-png.flaticon.com/128/152/152810.png"
-                alt="yt"
-              />
-            </span>
-            Youtube
-          </li>
-        </ul>
-      </div>
-      <div className="flex flex-col gap-4">
-        <div
-          onClick={scrollToTop}
-          className="py-4 px-6 flex flex-col text-black font-bold justify-center items-center bg-green-500 rounded-full w-fit"
-        >
-          <img src="/Frame.svg" alt="fr" />
-          <p>To to Top</p>
+            <img src="/Frame.svg" alt="fr" />
+            <p>To to Top</p>
+          </div>
         </div>
       </div>
-    </div>
+    </>
   );
 };
 

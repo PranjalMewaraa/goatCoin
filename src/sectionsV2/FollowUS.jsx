@@ -55,8 +55,8 @@ const FutureListing2 = () => {
           }}
         >
           <img
-            className=" text-black w-12 aspect-square rounded-xl bg-white"
-            src="/youtube.webp"
+            className=" text-black w-12 aspect-square  rounded-xl object-fill bg-white"
+            src="/yt.webp"
             alt="yt"
           />
           <p className="font-[nav] md:hidden text-3xl text-white">YOUTUBE</p>

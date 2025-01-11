@@ -22,7 +22,10 @@ const Footer = () => {
     { text: "BECOME A GOAT " },
   ];
   return (
-    <div className="flex flex-col bg-black w-full h-fit min-h-[60vh]">
+    <div
+      className="flex flex-col bg-black w-full h-fit min-h-[60vh]"
+      style={{ background: "url(/smalbg.webp)", backgroundSize: "cover" }}
+    >
       <div className="overflow-hidden  rotate-[2.2deg] origin-top-left bg-[#00BABD] scale-105 w-full z-40 h-20 flex items-center">
         <MarqueeStrip DATA_LIST={DATA_LIST} />
       </div>
@@ -31,10 +34,10 @@ const Footer = () => {
           style={{
             background: "linear-gradient(180deg, #275C5A 0%, #8CBC66 100%)",
           }}
-          className="md:h-[110px] mt-20 bg-[#FFD319] z-10 md:rounded-[15px_77px_77px_15px] flex p-[6px] md:pl-[32px] max-w-[950px] gap-4 justify-between md:gap-[40px] flex-col md:flex-row m-auto rounded-[15px] h-auto md:p-[15px] mx-[10px]"
+          className="md:h-[110px] mt-24 bg-[#FFD319] z-10 md:rounded-[15px_77px_77px_15px] flex p-[6px] md:pl-[32px] max-w-[950px] gap-4 justify-between md:gap-[40px] flex-col md:flex-row m-auto rounded-[15px] h-auto md:p-[15px] mx-[10px]"
         >
           <div class="flex w-full md:w-1/3 font-semibold text-center md:text-justify  items-center flex-shrink-0 gap-[10px]">
-            <p class="w-fit text-left md:px-[20px] text-[18px]">
+            <p class="w-fit text-left text-white md:px-[20px] text-[18px]">
               Join our GTPR Alpha Community
             </p>
             <svg
@@ -119,8 +122,8 @@ const Footer = () => {
           </div>
         </div>
         {/* <img
-          className="w-3/5 h-fit bg-cover  z-0 bg-no-repeat"
-          src="/image4-min.webp"
+          className="w-full h-fit bg-cover  z-0 bg-no-repeat"
+          src="/smalbg.png"
           alt="4"
         ></img> */}
       </div>
