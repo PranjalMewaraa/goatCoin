@@ -11,7 +11,7 @@ const Dogenomics = () => {
         style={{ backgroundImage: "url(/.png)" }}
       >
         <img
-          src="/token.png"
+          src="/tokeno.webp"
           width={1000}
           height={100}
           className=" lg:max-h-[550px] 2xl:max-h-[800px] md:h-auto"

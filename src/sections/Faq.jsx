@@ -8,7 +8,7 @@ const Faq = () => {
       <div
         className="w-full  h-fit -translate-y-2 -translate-x-1 scale-110 scale-x-125 md:scale-105 rotate-2 flex flex-col items-center gap-4 py-16"
         style={{
-          backgroundImage: "url(/d1.jpg)",
+          backgroundImage: "url(/d1.webp)",
           backgroundSize: "cover",
           backgroundRepeat: "no-repeat",
         }}
