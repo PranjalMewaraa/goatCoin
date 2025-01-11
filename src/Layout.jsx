@@ -11,7 +11,7 @@ const Navbar = () => {
         WebkitTextStrokeColor: "#000",
       }}
     >
-      <Link to={"/"} className="h-full flex gap-1 items-center">
+      <Link to={"/"} className="h-full hidden md:flex  gap-1 items-center">
         <img
           src="/dollar.webp"
           className="h-full aspect-square"
