@@ -118,11 +118,11 @@ const Footer = () => {
             </button>
           </div>
         </div>
-        <img
+        {/* <img
           className="w-3/5 h-fit bg-cover  z-0 bg-no-repeat"
           src="/image4-min.webp"
           alt="4"
-        ></img>
+        ></img> */}
       </div>
     </div>
   );
