@@ -12,7 +12,13 @@ const Navbar = () => {
       }}
     >
       <Link to={"/"} className="h-full flex gap-1 items-center">
-        <img src="/dollar.webp" className="h-full aspect-square" alt="coin" />
+        <img
+          src="/dollar.webp"
+          className="h-full aspect-square"
+          alt="coin"
+          width={70}
+          height={100}
+        />
         <h1
           className="text-white font-bold text-2xl stroke-black"
           style={{

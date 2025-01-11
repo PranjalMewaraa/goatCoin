@@ -12,6 +12,8 @@ const Dogenomics = () => {
       >
         <img
           src="/token.png"
+          width={1000}
+          height={100}
           className=" lg:max-h-[550px] 2xl:max-h-[800px] md:h-auto"
           alt="tokenomicds"
         />
