@@ -21,7 +21,6 @@ const GetStrong = () => {
         <h2
           className="text-justify p-4 md:p-6 text-base bg-white md:text-lg font-black text-black"
           style={{
-            WebkitTextStroke: "0.5px #F0B90B",
             filter: "drop-shadow(5px 5px 0px #000)",
           }}
         >
